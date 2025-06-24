@@ -1,0 +1,7 @@
+There are two water containers: containerAAAhas volumeaaaand containerBBBhas volumebbb. Your want to measurexxxunits of water using the containers.Initially both containers are empty. On each move, you can fill a container, empty a container or move water from a container to another container. When you move water, you must always fill or empty at least one container. After the moves, containerAAAmust havexxxunits of water.Find a sequence of moves where the total amount of moved water is minimum or state that it is impossible to measure the water.InputThe only line has three integersaaa,bbbandxxx.OutputFirst print two integersnnnandmmm: the number of moves and the total amount of water moved. After that print a sequence ofnnnmoves. Each move must move at least one unit of water and be one of the following:FILL A: fill containerAAAFILL B: fill containerBBBEMPTY A: empty containerAAAEMPTY B: empty containerBBBMOVE A B: move water from containerAAAto containerBBBMOVE B A: move water from containerBBBto containerAAAIf it is not possible to measure the water, only print−1-1−1.Constraints1≤a,b,x≤10001 \le a, b, x \le 10001≤a,b,x≤1000ExampleInput:5 3 4Output:6 19
+FILL A
+MOVE A B
+EMPTY B
+MOVE A B
+FILL A
+MOVE A B

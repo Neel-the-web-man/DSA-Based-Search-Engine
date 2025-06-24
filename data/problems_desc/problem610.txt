@@ -1,0 +1,2 @@
+Given a positive integern, you can apply one of the following operations:Ifnis even, replacenwithn / 2.Ifnis odd, replacenwith eithern + 1orn - 1.Returnthe minimum number of operations needed fornto become1.Example 1:Input:n = 8Output:3Explanation:8 -> 4 -> 2 -> 1Example 2:Input:n = 7Output:4Explanation:7 -> 8 -> 4 -> 2 -> 1
+or 7 -> 6 -> 3 -> 2 -> 1Example 3:Input:n = 4Output:2Constraints:1 <= n <= 231- 1

@@ -1,0 +1,4 @@
+A Gray code is a list of all2n2^n2nbit strings of lengthnnn, where any two successive strings differ in exactly one bit (i.e., their Hamming distance is one).Your task is to create a Gray code for a given lengthnnn.InputThe only input line has an integernnn.OutputPrint2n2^n2nlines that describe the Gray code. You can print any valid solution.Constraints1≤n≤161 \le n \le 161≤n≤16ExampleInput:2Output:00
+01
+11
+10

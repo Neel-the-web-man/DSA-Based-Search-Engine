@@ -1,0 +1,6 @@
+There will be a chess tournament ofnnnplayers. Each player has announced the number of games they want to play.Each pair of players can play at most one game. Your task is to determine which games will be played so that everybody will be happy.InputThe first input line has an integernnn: the number of players. The players are numbered1,2,…,n1,2,\dots,n1,2,…,n.The next line hasnnnintegersx1,x2,…,xnx_1,x_2,\dots,x_nx1​,x2​,…,xn​: for each player, the number of games they want to play.OutputFirst print an integerkkk: the number of games. Then, printkkklines describing the games. You can print any valid solution.If there are no solutions, print "IMPOSSIBLE".Constraints1≤n≤1051 \le n \le 10^51≤n≤105∑i=1nxi≤2⋅105\sum_{i=1}^{n} x_i \le 2 \cdot 10^5∑i=1n​xi​≤2⋅105ExampleInput:5
+1 3 2 0 2Output:4
+1 2
+2 3
+2 5
+3 5

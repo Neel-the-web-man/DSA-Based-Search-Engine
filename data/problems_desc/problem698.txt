@@ -1,0 +1,8 @@
+There is a knight on ann×nn \times nn×nchessboard. For each square, print the minimum number of moves the knight needs to do to reach the top-left corner.InputThe only line has an integernnn.OutputPrint the number of moves for each square.Constraints4≤n≤10004 \le n \le 10004≤n≤1000ExampleInput:8Output:0 3 2 3 2 3 4 5 
+3 4 1 2 3 4 3 4 
+2 1 4 3 2 3 4 5 
+3 2 3 2 3 4 3 4 
+2 3 2 3 4 3 4 5 
+3 4 3 4 3 4 5 4 
+4 3 4 3 4 5 4 5 
+5 4 5 4 5 4 5 6

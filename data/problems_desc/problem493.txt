@@ -1,0 +1,5 @@
+Given an integer arraynumsand an integerk, returnthe number ofgoodsubarrays ofnums.A subarrayarrisgoodif there areat leastkpairs of indices(i, j)such thati < jandarr[i] == arr[j].Asubarrayis a contiguousnon-emptysequence of elements within an array.Example 1:Input:nums = [1,1,1,1,1], k = 10Output:1Explanation:The only good subarray is the array nums itself.Example 2:Input:nums = [3,1,4,3,2,2,4], k = 2Output:4Explanation:There are 4 different good subarrays:
+- [3,1,4,3,2,2] that has 2 pairs.
+- [3,1,4,3,2,2,4] that has 3 pairs.
+- [1,4,3,2,2,4] that has 2 pairs.
+- [4,3,2,2,4] that has 2 pairs.Constraints:1 <= nums.length <= 1051 <= nums[i], k <= 109

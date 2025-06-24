@@ -1,0 +1,6 @@
+There arennncities andn−1n-1n−1roads between them. There is a unique route between any two cities, and their distance is the number of roads on that route.A company wants to have offices in some cities, but the distance between any two offices has to be at leastddd. What is the maximum number of offices they can have?InputThe first input line has two integersnnnandddd: the number of cities and the minimum distance. The cities are numbered1,2,…,n1,2,\dots,n1,2,…,n.After this, there aren−1n-1n−1lines describing the roads. Each line has two integersaaaandbbb: there is a road between citiesaaaandbbb.OutputFirst print an integerkkk: the maximum number of offices. After that, print the cities which will have offices. You can print any valid solution.Constraints1≤n,d≤2⋅1051 \le n,d \le 2 \cdot 10^51≤n,d≤2⋅1051≤a,b≤n1 \le a,b \le n1≤a,b≤nExampleInput:5 3
+1 2
+2 3
+3 4
+3 5Output:2
+1 4

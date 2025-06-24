@@ -1,0 +1,9 @@
+Given an arrayxxxofnnnintegers, your task is to processqqqqueries of the form: how many integersiiisatisfya≤i≤ba \le i \le ba≤i≤bandc≤xi≤dc \le x_i \le dc≤xi​≤d?InputThe first line has two integersnnnandqqq: the number of values and queries.The second line hasnnnintegersx1,x2,…,xnx_1,x_2,\dots,x_nx1​,x2​,…,xn​: the array values.Finally, there areqqqlines describing the queries. Each line has four integersaaa,bbb,cccandddd: how many integersiiisatisfya≤i≤ba \le i \le ba≤i≤bandc≤xi≤dc \le x_i \le dc≤xi​≤d?OutputPrint the result of each query.Constraints1≤n,q≤2⋅1051 \le n,q \le 2 \cdot 10^51≤n,q≤2⋅1051≤xi≤1091 \le x_i \le 10^91≤xi​≤1091≤a≤b≤n1 \le a \le b \le n1≤a≤b≤n1≤c≤d≤1091 \le c \le d \le 10^91≤c≤d≤109ExampleInput:8 4
+3 2 4 5 1 1 5 3
+2 4 2 4
+5 6 2 9
+1 8 1 5
+3 3 4 4Output:2
+0
+8
+1

@@ -1,0 +1,1 @@
+Given an integern, returntrueif it is a power of two. Otherwise, returnfalse.An integernis a power of two, if there exists an integerxsuch thatn == 2x.Example 1:Input:n = 1Output:trueExplanation:20= 1Example 2:Input:n = 16Output:trueExplanation:24= 16Example 3:Input:n = 3Output:falseConstraints:-231<= n <= 231- 1Follow up:Could you solve it without loops/recursion?

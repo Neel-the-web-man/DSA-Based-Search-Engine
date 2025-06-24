@@ -1,0 +1,12 @@
+Letp(n,k)p(n,k)p(n,k)denote thekkkth permutation (in lexicographical order) of1…n1 \dots n1…n. For example,p(4,1)=[1,2,3,4]p(4,1)=[1,2,3,4]p(4,1)=[1,2,3,4]andp(4,2)=[1,2,4,3]p(4,2)=[1,2,4,3]p(4,2)=[1,2,4,3].Your task is to process two types of tests:Givennnnandkkk, findp(n,k)p(n,k)p(n,k)Givennnnandp(n,k)p(n,k)p(n,k), findkkkInputThe first line has an integerttt: the number of tests.Each test is either "1nnnkkk" or "2nnnp(n,k)p(n,k)p(n,k)".OutputFor each test, print the answer according to the example.Constraints1≤t≤10001 \le t \le 10001≤t≤10001≤n≤201 \le n \le 201≤n≤201≤k≤n!1 \le k \le n!1≤k≤n!ExampleInput:6
+1 4 1
+1 4 2
+2 4 1 2 3 4
+2 4 1 2 4 3
+1 5 42
+2 5 2 4 5 3 1Output:1 2 3 4
+1 2 4 3
+1
+2
+2 4 5 3 1
+42

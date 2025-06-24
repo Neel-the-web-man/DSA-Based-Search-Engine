@@ -1,0 +1,6 @@
+There is a heap ofnnncoins and two players who move alternately. On each move, a player chooses a heap and divides into two nonempty heaps that have a different number of coins. The player who makes the last move wins the game.Your task is to find out who wins if both players play optimally.InputThe first input line contains an integerttt: the number of tests.After this, there aretttlines that describe the tests. Each line has an integernnn: the number of coins in the initial heap.OutputFor each test case, print "first" if the first player wins the game and "second" if the second player wins the game.Constraints1≤t≤1051 \le t \le 10^51≤t≤1051≤n≤1061 \le n \le 10^61≤n≤106ExampleInput:3
+6
+7
+8Output:first
+second
+first

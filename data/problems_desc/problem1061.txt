@@ -1,0 +1,5 @@
+A company wants to hireaaaprogrammers andbbbartists.There are a total ofnnnapplicants, and each applicant can become either a programmer or an artist. You know each applicant's programming and artistic skills.Your task is to select the new employees so that the sum of their skills is maximum.InputThe first input line has three integersaaa,bbbandnnn: the required number of programmers and artists, and the total number of applicants.After this, there arennnlines that describe the applicants. Each line has two integersxxxandyyy: the applicant's programming and artistic skills.OutputPrint one integer: the maximum sum of skills.Constraints1≤n≤2⋅1051 \le n \le 2 \cdot 10^51≤n≤2⋅1050≤a,b≤n0 \le a,b \le n0≤a,b≤na+b≤na+b \le na+b≤n1≤x,y≤1091 \le x,y \le 10^91≤x,y≤109ExampleInput:2 1 4
+3 7
+9 8
+1 5
+4 2Output:20Explanation: An optimal solution is to hire two programmers with skills999and444and one artist with skill777. The sum of the skills is9+4+7=209+4+7=209+4+7=20.

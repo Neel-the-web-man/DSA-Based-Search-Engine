@@ -1,0 +1,1 @@
+Given a strings, rearrange the characters ofsso that any two adjacent characters are not the same.Returnany possible rearrangement ofsor return""if not possible.Example 1:Input:s = "aab"Output:"aba"Example 2:Input:s = "aaab"Output:""Constraints:1 <= s.length <= 500sconsists of lowercase English letters.

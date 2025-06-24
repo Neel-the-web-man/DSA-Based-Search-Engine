@@ -1,0 +1,8 @@
+Your task is to count fork=1,2,…,nk=1,2,\ldots,nk=1,2,…,nthe number of ways two knights can be placed on ak×kk \times kk×kchessboard so that they do not attack each other.InputThe only input line contains an integernnn.OutputPrintnnnintegers: the results.Constraints1≤n≤100001 \le n \le 100001≤n≤10000ExampleInput:8Output:0
+6
+28
+96
+252
+550
+1056
+1848

@@ -1,0 +1,2 @@
+You are given a list ofnnnintegers, and your task is to calculate the number ofdistinctvalues in the list.InputThe first input line has an integernnn: the number of values.The second line hasnnnintegersx1,x2,…,xnx_1,x_2,\dots,x_nx1​,x2​,…,xn​.OutputPrint one integers: the number of distinct values.Constraints1≤n≤2⋅1051 \le n \le 2 \cdot 10^51≤n≤2⋅1051≤xi≤1091 \le x_i \le 10^91≤xi​≤109ExampleInput:5
+2 3 2 2 3Output:2

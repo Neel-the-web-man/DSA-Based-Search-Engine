@@ -1,0 +1,5 @@
+Find the middle element when the numbers in ann×nn \times nn×nmultiplication table are sorted in increasing order. It is assumed thatnnnis odd.For example, the3×33 \times 33×3multiplication table is as follows:123246369\begin{matrix}
+1 & 2 & 3 \\
+2 & 4 & 6 \\
+3 & 6 & 9 \\
+\end{matrix}123​246​369​The numbers in increasing order are[1,2,2,3,3,4,6,6,9][1,2,2,3,3,4,6,6,9][1,2,2,3,3,4,6,6,9], so the answer is333.InputThe only input line has an integernnn.OutputPrint one integer: the answer to the task.Constraints1≤n<1061 \le n < 10^61≤n<106ExampleInput:3Output:3

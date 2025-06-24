@@ -1,0 +1,6 @@
+You play a game consisting ofnnnrooms andmmmtunnels. Your initial score is000, and each tunnel increases your score byxxxwherexxxmay be both positive or negative. You may go through a tunnel several times.Your task is to walk from room111to roomnnn. What is the maximum score you can get?InputThe first input line has two integersnnnandmmm: the number of rooms and tunnels. The rooms are numbered1,2,…,n1,2,\dots,n1,2,…,n.Then, there aremmmlines describing the tunnels. Each line has three integersaaa,bbbandxxx: the tunnel starts at roomaaa, ends at roombbb, and it increases your score byxxx. All tunnels are one-way tunnels.You can assume that it is possible to get from room111to roomnnn.OutputPrint one integer: the maximum score you can get. However, if you can get an arbitrarily large score, print−1-1−1.Constraints1≤n≤25001 \le n \le 25001≤n≤25001≤m≤50001 \le m \le 50001≤m≤50001≤a,b≤n1 \le a,b \le n1≤a,b≤n−109≤x≤109-10^9 \le x \le 10^9−109≤x≤109ExampleInput:4 5
+1 2 3
+2 4 -1
+1 3 -2
+3 4 7
+1 4 4Output:5

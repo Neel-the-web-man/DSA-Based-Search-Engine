@@ -1,0 +1,8 @@
+Given an array ofnnnintegers, your task is to processqqqqueries of the following types:update the value at positionkkktouuucheck if every value in range[a,b][a, b][a,b]is distinctInputThe first line has two integersnnnandqqq: the number of values and queries.The second line hasnnnintegersx1,x2,…,xnx_1, x_2,\dots, x_nx1​,x2​,…,xn​: the array values.Finally, there areqqqlines describing the queries. Each line has three integers: either "111kkkuuu" or "222aaabbb".OutputFor each query of type 2, printYESif every value in the range is distinct andNOotherwise.Constraints1≤n,q≤2⋅1051 \le n, q \le 2 \cdot 10^51≤n,q≤2⋅1051≤xi,u≤1091 \le x_i, u \le 10^91≤xi​,u≤1091≤k≤n1 \le k \le n1≤k≤n1≤a≤b≤n1 \le a \le b \le n1≤a≤b≤nExampleInput:5 4
+3 2 7 2 8
+2 3 5
+2 2 5
+1 2 9
+2 2 5Output:YES
+NO
+YES

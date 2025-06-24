@@ -1,0 +1,8 @@
+You are given a grid of letters. Your task is to calculate, for each letter, the number ofrectangularsubgrids whose border consists of that letter.InputThe first line has two integersnnnandkkk: the size of the grid and the number of letters. The letters are the firstkkkuppercase letters.After this, there arennnlines that describe the grid. Each line hasnnnletters.OutputPrintkkklines: for each letter, the number of subgrids.Constraints1≤n≤5001 \le n \le 5001≤n≤5001≤k≤261 \le k \le 261≤k≤26ExampleInput:5 3
+ABBBC
+ABABC
+ABBBC
+ABBBC
+CCCCCOutput:11
+38
+29

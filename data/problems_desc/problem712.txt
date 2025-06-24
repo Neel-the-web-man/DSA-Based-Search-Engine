@@ -1,0 +1,2 @@
+You havennncoins with positive integer values. What is the smallest sum you cannot create using a subset of the coins?InputThe first line has an integernnn: the number of coins.The second line hasnnnintegersx1,x2,…,xnx_1,x_2,\dots,x_nx1​,x2​,…,xn​: the value of each coin.OutputPrint one integer: the smallest coin sum.Constraints1≤n≤2⋅1051 \le n \le 2 \cdot 10^51≤n≤2⋅1051≤xi≤1091 \le x_i \le 10^91≤xi​≤109ExampleInput:5
+2 9 1 2 7Output:6

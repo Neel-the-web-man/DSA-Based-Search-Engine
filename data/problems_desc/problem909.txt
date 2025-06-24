@@ -1,0 +1,10 @@
+Your task is to efficiently process the following types of queries:Add a lineax+bax+bax+bthat is active in range[l,r][l,r][l,r]Find the maximum point in any active line at positionxxxInputThe first line has an integernnn: the number of queries.The followingnnnlines describe the queries. The format of each line is either "1aaabbblllrrr" or "2xxx".OutputPrint the answer for each query of type 2. If no line is active, printNO.Constraints1≤n≤2⋅1051 \le n \le 2 \cdot 10^51≤n≤2⋅105−109≤a,b≤109-10^9 \le a,b \le 10^9−109≤a,b≤1090≤x≤1050 \le x \le 10^50≤x≤1050≤l≤r≤1050 \le l \le r \le 10^50≤l≤r≤105ExampleInput:6
+1 1 2 1 3
+2 3
+2 4
+1 0 4 1 5
+2 3
+2 4Output:5
+NO
+5
+4

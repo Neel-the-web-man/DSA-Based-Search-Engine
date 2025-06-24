@@ -1,0 +1,2 @@
+Given a list ofnnnpositive integers, your task is to count the number of pairs of integers that are coprime (i.e., their greatest common divisor is one).InputThe first input line has an integernnn: the number of elements.The next line hasnnnintegersx1,x2,…,xnx_1,x_2,\dots,x_nx1​,x2​,…,xn​: the contents of the list.OutputPrint one integer: the answer for the task.Constraints1≤n≤1051 \le n \le 10^51≤n≤1051≤xi≤1061 \le x_i \le 10^61≤xi​≤106ExampleInput:8
+5 4 20 1 16 17 5 15Output:19

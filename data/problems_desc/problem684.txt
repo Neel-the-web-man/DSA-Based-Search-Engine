@@ -1,0 +1,6 @@
+A number spiral is an infinite grid whose upper-left square has number 1. Here are the first five layers of the spiral:Your task is to find out the number in rowyyyand columnxxx.InputThe first input line contains an integerttt: the number of tests.After this, there aretttlines, each containing integersyyyandxxx.OutputFor each test, print the number in rowyyyand columnxxx.Constraints1≤t≤1051 \le t \le 10^51≤t≤1051≤y,x≤1091 \le y,x \le 10^91≤y,x≤109ExampleInput:3
+2 3
+1 1
+4 2Output:8
+1
+15

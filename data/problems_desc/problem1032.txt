@@ -1,0 +1,2 @@
+Given an array ofnnnintegers, count the number of subsets whose elements' product is a square number.Also count the empty subset with product equal to one.InputThe first line has an integernnn: the size of the array.The next line hasnnnintegersx1,x2,…,xnx_1, x_2,\dots, x_nx1​,x2​,…,xn​: the contents of the array.OutputPrint one integer: the answer to the problem modulo109+710^9 + 7109+7.Constraints1≤n≤50001 \le n \le 50001≤n≤50001≤xi≤50001 \le x_i \le 50001≤xi​≤5000ExampleInput:4
+2 2 3 6Output:4

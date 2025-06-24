@@ -1,0 +1,6 @@
+A well known result in number theory is that every non-negative integer can be represented as the sum of four squares of non-negative integers.You are given a non-negative integernnn. Your task is to find four non-negative integersaaa,bbb,cccanddddsuch thatn=a2+b2+c2+d2n = a^2 + b^2 + c^2 + d^2n=a2+b2+c2+d2.InputThe first line has an integerttt: the number of test cases.Each of the nexttttlines has an integernnn.OutputFor each test case, print four non-negative integersaaa,bbb,cccanddddthat satisfyn=a2+b2+c2+d2n = a^2 + b^2 + c^2 + d^2n=a2+b2+c2+d2.Constraints1≤t≤10001 \le t \le 10001≤t≤10000≤n≤1070 \le n \le 10^70≤n≤107the sum of allnnnis at most10710^7107ExampleInput:3
+5
+30
+322266Output:2 1 0 0
+1 2 3 4
+314 159 265 358

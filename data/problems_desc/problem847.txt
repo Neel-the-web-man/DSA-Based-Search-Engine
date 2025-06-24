@@ -1,0 +1,10 @@
+Given a positive integernnn, find the next prime number after it.InputThe first line has an integerttt: the number of tests.After that, each line has a positive integernnn.OutputFor each test, print the next prime afternnn.Constraints1≤t≤201 \le t \le 201≤t≤201≤n≤10121 \le n \le 10^{12}1≤n≤1012ExampleInput:5
+1
+2
+3
+42
+1337Output:2
+3
+5
+43
+1361

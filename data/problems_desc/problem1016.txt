@@ -1,0 +1,3 @@
+Atournament graphis a directed graph where a single directed edge exists between every pair of nodes.Givennnn, your task is to calculate for eachk=1…nk = 1 \dots nk=1…nthe number of tournament graphs that havennnnodes andkkkstrongly connected components.InputThe only line has an integernnn: the number of nodes.OutputPrintnnnlines: for eachk=1…nk=1 \dots nk=1…nthe number of graphs modulo109+710^9+7109+7.Constraints1≤n≤5001 \le n \le 5001≤n≤500ExampleInput:3Output:2
+0
+6

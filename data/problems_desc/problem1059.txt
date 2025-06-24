@@ -1,0 +1,6 @@
+There is ann×nn \times nn×ngrid whose each square is empty or has a coin. On each move, you can remove all coins in a row or column.What is the minimum number of moves after which the grid is empty?InputThe first input line has an integernnn: the size of the grid. The rows and columns are numbered1,2,…,n1,2,\dots,n1,2,…,n.After this, there arennnlines describing the grid. Each line hasnnncharacters: each character is either.(empty) oro(coin).OutputFirst print an integerkkk: the minimum number of moves. After this, printkkklines describing the moves.On each line, first print111(row) or222(column), and then the number of a row or column. You can print any valid solution.Constraints1≤n≤1001 \le n \le 1001≤n≤100ExampleInput:3
+..o
+o.o
+...Output:2
+1 2
+2 3

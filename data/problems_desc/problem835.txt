@@ -1,0 +1,5 @@
+Given a tree ofnnnnodes, your task is to find acentroid, i.e., a node such that when it is appointed the root of the tree, each subtree has at most⌊n/2⌋\lfloor n/2 \rfloor⌊n/2⌋nodes.InputThe first input line contains an integernnn: the number of nodes. The nodes are numbered1,2,…,n1,2,…,n1,2,…,n.Then there aren−1n-1n−1lines describing the edges. Each line contains two integersaaaandbbb: there is an edge between nodesaaaandbbb.OutputPrint one integer: a centroid node. If there are several possibilities, you can choose any of them.Constraints1≤n≤2⋅1051 \le n \le 2 \cdot 10^51≤n≤2⋅1051≤a,b≤n1 \le a,b \le n1≤a,b≤nExampleInput:5
+1 2
+2 3
+3 4
+3 5Output:3

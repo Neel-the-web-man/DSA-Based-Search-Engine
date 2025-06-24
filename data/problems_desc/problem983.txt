@@ -1,0 +1,12 @@
+Given an undirected weighted graph, determine for each edge if it can be included in a minimum spanning tree.InputThe first line has two integersnnnandmmm: the number of nodes and edges. The nodes are numbered1,2,…,n1,2,\dots,n1,2,…,n.The followingmmmlines describe the edges. Each line has three integersaaa,bbb,www: there is an edge between nodesaaaandbbbwith weightwww.You can assume that the graph is connected and simple and each edge appears at most once in the graph.OutputFor each edge in the input order, printYESif it can be included in the minimum spanning tree andNOotherwise.Constraints1≤n≤1051 \le n \le 10^51≤n≤1051≤m≤2⋅1051 \le m \le 2 \cdot 10^51≤m≤2⋅1051≤a,b≤n1 \le a,b \le n1≤a,b≤n1≤w≤1091 \le w \le 10^91≤w≤109ExampleInput:5 6
+1 2 4
+1 3 2
+2 4 2
+3 4 1
+3 5 3
+4 5 3Output:NO
+YES
+YES
+YES
+YES
+YES

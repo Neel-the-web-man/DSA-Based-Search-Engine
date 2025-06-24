@@ -1,0 +1,8 @@
+Given an array ofnnnintegers, your task is to processqqqqueries of the following types:update the value at positionkkktouuuwhat is the minimum value in range[a,b][a,b][a,b]?InputThe first input line has two integersnnnandqqq: the number of values and queries.The second line hasnnnintegersx1,x2,…,xnx_1,x_2,\dots,x_nx1​,x2​,…,xn​: the array values.Finally, there areqqqlines describing the queries. Each line has three integers: either "111kkkuuu" or "222aaabbb".OutputPrint the result of each query of type 2.Constraints1≤n,q≤2⋅1051 \le n,q \le 2 \cdot 10^51≤n,q≤2⋅1051≤xi,u≤1091 \le x_i, u \le 10^91≤xi​,u≤1091≤k≤n1 \le k \le n1≤k≤n1≤a≤b≤n1 \le a \le b \le n1≤a≤b≤nExampleInput:8 4
+3 2 4 5 1 1 5 3
+2 1 4
+2 5 6
+1 2 3
+2 1 4Output:2
+1
+3

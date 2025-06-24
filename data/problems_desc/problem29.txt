@@ -1,0 +1,1 @@
+Given a strings, partitionssuch that everysubstringof the partition is apalindrome. Returnall possible palindrome partitioning ofs.Example 1:Input:s = "aab"Output:[["a","a","b"],["aa","b"]]Example 2:Input:s = "a"Output:[["a"]]Constraints:1 <= s.length <= 16scontains only lowercase English letters.

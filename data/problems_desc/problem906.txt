@@ -1,0 +1,5 @@
+There arennnline segments whose endpoints have integer coordinates. The left x-coordinate of each segment is000and the right x-coordinate ismmm. The slope of each segment is an integer.For each x-coordinate0,1,…,m0,1,\dots,m0,1,…,m, find the maximum point in any line segment.InputThe first line has two integersnnnandmmm: the number of line segments and the maximum x-coordinate.The nextnnnlines describe the line segments. Each line has two integersy1y_1y1​andy2y_2y2​: there is a line segment between points(0,y1)(0,y_1)(0,y1​)and(m,y2)(m,y_2)(m,y2​).OutputPrintm+1m+1m+1integers: the maximum points forx=0,1,…,mx=0,1,\dots,mx=0,1,…,m.Constraints1≤n,m≤1051 \le n, m \le 10^51≤n,m≤1050≤y1,y2≤1090 \le y_1,y_2 \le 10^90≤y1​,y2​≤109ExampleInput:4 5
+1 6
+7 2
+5 5
+10 0Output:10 8 6 5 5 6

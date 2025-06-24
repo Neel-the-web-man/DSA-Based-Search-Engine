@@ -1,0 +1,2 @@
+You are given an array ofnnnintegers. Your task is to calculate the number of non-empty subsets whose elements'bitwise andis equal tokkkfor eachk=0,1,…,nk = 0, 1,\dots, nk=0,1,…,n.InputThe first line has an integernnn: the size of the array.The next line hasnnnintegersa1,a2,…,ana_1, a_2,\dots, a_na1​,a2​,…,an​: the contents of the array.OutputPrintn+1n + 1n+1integers as specified above modulo109+710^9 + 7109+7.Constraints1≤n≤2⋅1051 \le n \le 2 \cdot 10^51≤n≤2⋅1050≤ai≤n0 \le a_i \le n0≤ai​≤nExampleInput:4
+3 1 3 4Output:7 4 0 3 1

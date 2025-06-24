@@ -1,0 +1,5 @@
+You are given ann×nn \times nn×ngrid whose each square contains a letter.You should move from the upper-left square to the lower-right square. You can only move right or down.What is the lexicographically minimal string you can construct?InputThe first line has an integernnn: the size of the grid.After this, there arennnlines that describe the grid. Each line hasnnnletters betweenAandZ.OutputPrint the lexicographically minimal string.Constraints1≤n≤30001 \le n \le 30001≤n≤3000ExampleInput:4
+AACA
+BABC
+ABDA
+AACAOutput:AAABACA

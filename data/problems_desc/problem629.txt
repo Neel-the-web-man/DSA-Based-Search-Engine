@@ -1,0 +1,3 @@
+We build a table ofnrows (1-indexed). We start by writing0in the1strow. Now in every subsequent row, we look at the previous row and replace each occurrence of0with01, and each occurrence of1with10.For example, forn = 3, the1strow is0, the2ndrow is01, and the3rdrow is0110.Given two integernandk, return thekth(1-indexed) symbol in thenthrow of a table ofnrows.Example 1:Input:n = 1, k = 1Output:0Explanation:row 1:0Example 2:Input:n = 2, k = 1Output:0Explanation:row 1: 0
+row 2:01Example 3:Input:n = 2, k = 2Output:1Explanation:row 1: 0
+row 2: 01Constraints:1 <= n <= 301 <= k <= 2n - 1

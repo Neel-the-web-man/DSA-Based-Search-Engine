@@ -1,0 +1,1 @@
+Count the number of distinct substrings that appear in a string.InputThe only input line has a string of lengthnnnthat consists of characters a–z.OutputPrint one integer: the number of substrings.Constraints1≤n≤1051 \le n \le 10^51≤n≤105ExampleInput:abaaOutput:8Explanation: the substrings area,b,aa,ab,ba,aba,baaandabaa.

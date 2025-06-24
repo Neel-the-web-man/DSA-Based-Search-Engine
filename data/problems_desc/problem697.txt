@@ -1,0 +1,5 @@
+Your task is to construct ann×nn \times nn×ngrid where each square has the smallest nonnegative integer that does not appear to the left on the same row or above on the same column.InputThe only line has an integernnn.OutputPrint the grid according to the example.Constraints1≤n≤1001 \le n \le 1001≤n≤100ExampleInput:5Output:0 1 2 3 4
+1 0 3 2 5
+2 3 0 1 6
+3 2 1 0 7
+4 5 6 7 0

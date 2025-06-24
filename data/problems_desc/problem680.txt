@@ -1,0 +1,2 @@
+You are given all numbers between1,2,…,n1,2,\ldots,n1,2,…,nexcept one. Your task is to find the missing number.InputThe first input line contains an integernnn.The second line containsn−1n-1n−1numbers. Each number is distinct and between111andnnn(inclusive).OutputPrint the missing number.Constraints2≤n≤2⋅1052 \le n \le 2 \cdot 10^52≤n≤2⋅105ExampleInput:5
+2 3 1 5Output:4

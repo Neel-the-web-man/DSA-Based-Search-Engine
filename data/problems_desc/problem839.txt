@@ -1,0 +1,6 @@
+Your task is to efficiently calculate valuesaba^babmodulo109+710^9+7109+7.Note that in this task we assume that00=10^0=100=1.InputThe first input line contains an integernnn: the number of calculations.After this, there arennnlines, each containing two integersaaaandbbb.OutputPrint each valueaba^babmodulo109+710^9+7109+7.Constraints1≤n≤2⋅1051 \le n \le 2 \cdot 10^51≤n≤2⋅1050≤a,b≤1090 \le a,b \le 10^90≤a,b≤109ExampleInput:3
+3 4
+2 8
+123 123Output:81
+256
+921450052

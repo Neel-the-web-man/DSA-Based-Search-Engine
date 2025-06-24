@@ -1,0 +1,10 @@
+You are given a polygon ofnnnvertices and a list ofmmmpoints. Your task is to determine for each point if it is inside, outside or on the boundary of the polygon.The polygon consists ofnnnvertices(x1,y1),(x2,y2),…,(xn,yn)(x_1,y_1),(x_2,y_2),\dots,(x_n,y_n)(x1​,y1​),(x2​,y2​),…,(xn​,yn​). The vertices(xi,yi)(x_i,y_i)(xi​,yi​)and(xi+1,yi+1)(x_{i+1},y_{i+1})(xi+1​,yi+1​)are adjacent fori=1,2,…,n−1i=1,2,\dots,n-1i=1,2,…,n−1, and the vertices(x1,y1)(x_1,y_1)(x1​,y1​)and(xn,yn)(x_n,y_n)(xn​,yn​)are also adjacent.InputThe first input line has two integersnnnandmmm: the number of vertices in the polygon and the number of points.After this, there arennnlines that describe the polygon. Theiiith such line has two integersxix_ixi​andyiy_iyi​.You may assume that the polygon is simple, i.e., it does not intersect itself.Finally, there aremmmlines that describe the points. Each line has two integersxxxandyyy.OutputFor each point, print "INSIDE", "OUTSIDE" or "BOUNDARY".Constraints3≤n,m≤10003 \le n,m \le 10003≤n,m≤10001≤m≤10001 \le m \le 10001≤m≤1000−109≤xi,yi≤109-10^9 \le x_i, y_i \le 10^9−109≤xi​,yi​≤109−109≤x,y≤109-10^9 \le x, y \le 10^9−109≤x,y≤109ExampleInput:4 3
+1 1
+4 2
+3 5
+1 4
+2 3
+3 1
+1 3Output:INSIDE
+OUTSIDE
+BOUNDARY

@@ -1,0 +1,5 @@
+Your task is to divide the numbers1,2,…,n1,2,\ldots,n1,2,…,ninto two sets of equal sum.InputThe only input line contains an integernnn.OutputPrint "YES", if the division is possible, and "NO" otherwise.After this, if the division is possible, print an example of how to create the sets. First, print the number of elements in the first set followed by the elements themselves in a separate line, and then, print the second set in a similar way.Constraints1≤n≤1061 \le n \le 10^61≤n≤106Example 1Input:7Output:YES
+4
+1 2 4 7
+3
+3 5 6Example 2Input:6Output:NO

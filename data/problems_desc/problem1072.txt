@@ -1,0 +1,5 @@
+Given a set ofnnnpositive integers, your task is to choose two disjoint subsets of the elements that have the same sum.InputThe first line has an integernnn: the set size.The second line hasnnnintegersx1,x2,…,xnx_1,x_2,\dots,x_nx1​,x2​,…,xn​: the set elements.OutputFor both subsets, first print the size of the subset and then its contents. You can print any valid solution. If there is no solution, printIMPOSSIBLE.Constraints3≤n≤403 \le n \le 403≤n≤40∑i=1nxi≤2n−2\sum_{i=1}^{n} x_i \le 2^{n}-2∑i=1n​xi​≤2n−2ExampleInput:6
+1 2 3 5 7 8Output:2
+2 3
+1
+5Explanation: The first subset is{2,3}\{2,3\}{2,3}and the second subset is{5}\{5\}{5}.

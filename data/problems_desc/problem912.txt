@@ -1,0 +1,2 @@
+You are given an array ofnnnnumbers. In how many ways can you choose a subset of the numbers with sumxxx?InputThe first input line has two numbersnnnandxxx: the array size and the required sum.The second line hasnnnintegerst1,t2,…,tnt_1,t_2,\dots,t_nt1​,t2​,…,tn​: the numbers in the array.OutputPrint the number of ways you can create the sumxxx.Constraints1≤n≤401 \le n \le 401≤n≤401≤x≤1091 \le x \le 10^91≤x≤1091≤ti≤1091 \le t_i \le 10^91≤ti​≤109ExampleInput:4 5
+1 2 3 2Output:3

@@ -1,0 +1,1 @@
+Given two stringssandt, returntrueiftis ananagramofs, andfalseotherwise.Example 1:Input:s = "anagram", t = "nagaram"Output:trueExample 2:Input:s = "rat", t = "car"Output:falseConstraints:1 <= s.length, t.length <= 5 * 104sandtconsist of lowercase English letters.Follow up:What if the inputs contain Unicode characters? How would you adapt your solution to such a case?

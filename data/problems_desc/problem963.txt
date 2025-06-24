@@ -1,0 +1,6 @@
+Given a list ofnnnintegers, your task is to calculate for each elementxxx:the number of elementsyyysuch thatx∣y=xx \mid y = xx∣y=xthe number of elementsyyysuch thatx&y=xx \mathrel{\&} y = xx&y=xthe number of elementsyyysuch thatx&y≠0x \mathrel{\&} y \neq 0x&y=0InputThe first line has an integernnn: the size of the list.The next line hasnnnintegersx1,x2,…,xnx_1,x_2,\dots,x_nx1​,x2​,…,xn​: the elements of the list.OutputPrintnnnlines: for each element the required values.Constraints1≤n≤2⋅1051 \le n \le 2 \cdot 10^51≤n≤2⋅1051≤xi≤1061 \le x_i \le 10^61≤xi​≤106ExampleInput:5
+3 7 2 9 2Output:3 2 5
+4 1 5
+2 4 4
+1 1 3
+2 4 4

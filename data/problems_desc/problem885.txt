@@ -1,0 +1,7 @@
+Given a string and patterns, count for each pattern the number of positions where it appears in the string.InputThe first input line has a string of lengthnnn.The next input line has an integerkkk: the number of patterns. Finally, there arekkklines that describe the patterns.The string and the patterns consist of characters a–z.OutputFor each pattern, print the number of positions.Constraints1≤n≤1051 \le n \le 10^51≤n≤1051≤k≤5⋅1051 \le k \le 5 \cdot 10^51≤k≤5⋅105the total length of the patterns is at most5⋅1055 \cdot 10^55⋅105ExampleInput:aybabtu
+3
+bab
+abc
+aOutput:1
+0
+2

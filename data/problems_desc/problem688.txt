@@ -1,0 +1,1 @@
+Your task is to calculate the number of trailing zeros in the factorialn!n!n!.For example,20!=243290200817664000020!=243290200817664000020!=2432902008176640000and it has444trailing zeros.InputThe only input line has an integernnn.OutputPrint the number of trailing zeros inn!n!n!.Constraints1≤n≤1091 \le n \le 10^91≤n≤109ExampleInput:20Output:4

@@ -1,0 +1,6 @@
+Givennnnranges, your task is to determine for each range if it contains some other range and if some other range contains it.Range[a,b][a,b][a,b]contains range[c,d][c,d][c,d]ifa≤ca \le ca≤candd≤bd \le bd≤b.InputThe first input line has an integernnn: the number of ranges.After this, there arennnlines that describe the ranges. Each line has two integersxxxandyyy: the range is[x,y][x,y][x,y].You may assume that no range appears more than once in the input.OutputFirst print a line that describes for each range (in the input order) if it contains some other range (1) or not (0).Then print a line that describes for each range (in the input order) if some other range contains it (1) or not (0).Constraints1≤n≤2⋅1051 \le n \le 2 \cdot 10^51≤n≤2⋅1051≤x<y≤1091 \le x < y \le 10^91≤x<y≤109ExampleInput:4
+1 6
+2 4
+4 8
+3 6Output:1 0 0 0
+0 1 0 1

@@ -1,0 +1,7 @@
+You are an ant tasked with addingnnew rooms numbered0ton-1to your colony. You are given the expansion plan as a0-indexedinteger array of lengthn,prevRoom, whereprevRoom[i]indicates that you must build roomprevRoom[i]before building roomi, and these two rooms must be connecteddirectly. Room0is already built, soprevRoom[0] = -1. The expansion plan is given such that once all the rooms are built, every room will be reachable from room0.You can only buildone roomat a time, and you can travel freely between rooms you havealready builtonly if they areconnected. You can choose to buildany roomas long as itsprevious roomis already built.Returnthenumber of different ordersyou can build all the rooms in. Since the answer may be large, return itmodulo109+ 7.Example 1:Input:prevRoom = [-1,0,1]Output:1Explanation:There is only one way to build the additional rooms: 0 → 1 → 2Example 2:Input:prevRoom = [-1,0,0,1,2]Output:6Explanation:The 6 ways are:
+0 → 1 → 3 → 2 → 4
+0 → 2 → 4 → 1 → 3
+0 → 1 → 2 → 3 → 4
+0 → 1 → 2 → 4 → 3
+0 → 2 → 1 → 3 → 4
+0 → 2 → 1 → 4 → 3Constraints:n == prevRoom.length2 <= n <= 105prevRoom[0] == -10 <= prevRoom[i] < nfor all1 <= i < nEvery room is reachable from room0once all the rooms are built.

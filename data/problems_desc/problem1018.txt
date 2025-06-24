@@ -1,0 +1,3 @@
+Afunctional graphis a directed graph where each node has outdegree111. For example, here is a functional graph that has999nodes and222components:Givennnn, your task is to calculate for eachk=1…nk=1 \dots nk=1…nthe number of functional graphs that havennnnodes andkkkcomponents.InputThe only input line has an integernnn: the number of nodes.OutputPrintnnnlines: for eachk=1…nk=1 \dots nk=1…nthe number of graphs modulo109+710^9+7109+7.Constraints1≤n≤50001 \le n \le 50001≤n≤5000ExampleInput:3Output:17
+9
+1

@@ -1,0 +1,8 @@
+A campground is represented as a grid where each square can contain a campsite that is either reserved or free. The distance between two squares(x1,y1)(x_1, y_1)(x1​,y1​)and(x2,y2)(x_2, y_2)(x2​,y2​)is the Manhattan distance∣x1−x2∣+∣y1−y2∣|x_1 - x_2| + |y_1 - y_2|∣x1​−x2​∣+∣y1​−y2​∣.Your task is to find the distance from each free campsite to the nearest reserved campsite.InputThe first line has two integersnnnandmmm:
+the number of reserved and free campsites.The nextnnnlines describe the locations of the reserved campsites. Each line has two integersxxxandyyy.The nextmmmlines describe the locations of the free campsites. Each line has two integersxxxandyyy.You can assume that each square contains at most one campsite.OutputPrintmmmintegers: the distances from each free campsite to the nearest reserved campsite, in the input order.Constraints1≤n,m≤1051 \le n, m \le 10^51≤n,m≤1051≤x,y≤1061 \le x, y \le 10^61≤x,y≤106ExampleInput:4 2
+1 1
+5 2
+2 6
+4 7
+1 3
+7 5Output:2 5Explanation: The following figure shows the map of the campground:The distance from the first free campsite (on the left) to the nearest reserved campsite is222, and the distance from the second free campsite (on the right) to the nearest reserved campsite is555.

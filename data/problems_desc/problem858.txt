@@ -1,0 +1,1 @@
+The Fibonacci numbers can be defined as follows:F0=0F_0=0F0​=0F1=1F_1=1F1​=1Fn=Fn−2+Fn−1F_n = F_{n-2}+F_{n-1}Fn​=Fn−2​+Fn−1​Your task is to calculate the value ofFnF_nFn​for a givennnn.InputThe only input line has an integernnn.OutputPrint the value ofFnF_nFn​modulo109+710^9+7109+7.Constraints0≤n≤10180 \le n \le 10^{18}0≤n≤1018ExampleInput:10Output:55

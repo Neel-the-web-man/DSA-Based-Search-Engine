@@ -1,0 +1,4 @@
+There arennnpupils in Uolevi's class, andmmmfriendships between them. Your task is to divide the pupils into two teams in such a way that no two pupils in a team are friends. You can freely choose the sizes of the teams.InputThe first input line has two integersnnnandmmm: the number of pupils and friendships. The pupils are numbered1,2,…,n1,2,\dots,n1,2,…,n.Then, there aremmmlines describing the friendships. Each line has two integersaaaandbbb: pupilsaaaandbbbare friends.Every friendship is between two different pupils. You can assume that there is at most one friendship between any two pupils.OutputPrint an example of how to build the teams. For each pupil, print "1" or "2" depending on to which team the pupil will be assigned. You can print any valid team.If there are no solutions, print "IMPOSSIBLE".Constraints1≤n≤1051 \le n \le 10^51≤n≤1051≤m≤2⋅1051 \le m \le 2 \cdot 10^51≤m≤2⋅1051≤a,b≤n1 \le a,b \le n1≤a,b≤nExampleInput:5 3
+1 2
+1 3
+4 5Output:1 2 2 1 2

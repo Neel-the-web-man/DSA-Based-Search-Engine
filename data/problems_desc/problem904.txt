@@ -1,0 +1,6 @@
+Given a set of points, calculate the sum of all Manhattan distances between two point pairs.InputThe first line has an integernnn: the number of points.The followingnnnlines describe the points. Each line has two integersxxxandyyy. You can assume that each point is distinct.OutputPrint the sum of all Manhattan distances.Constraints1≤n≤2⋅1051 \le n \le 2 \cdot 10^51≤n≤2⋅105−109≤x,y≤109-10^9 \le x, y \le 10^9−109≤x,y≤109ExampleInput:5
+1 1
+3 2
+2 4
+2 1
+4 5Output:36

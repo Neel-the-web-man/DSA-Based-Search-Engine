@@ -1,0 +1,7 @@
+Given two stringsword1andword2, returnthe minimum number of operations required to convertword1toword2.You have the following three operations permitted on a word:Insert a characterDelete a characterReplace a characterExample 1:Input:word1 = "horse", word2 = "ros"Output:3Explanation:horse -> rorse (replace 'h' with 'r')
+rorse -> rose (remove 'r')
+rose -> ros (remove 'e')Example 2:Input:word1 = "intention", word2 = "execution"Output:5Explanation:intention -> inention (remove 't')
+inention -> enention (replace 'i' with 'e')
+enention -> exention (replace 'n' with 'x')
+exention -> exection (replace 'n' with 'c')
+exection -> execution (insert 'u')Constraints:0 <= word1.length, word2.length <= 500word1andword2consist of lowercase English letters.

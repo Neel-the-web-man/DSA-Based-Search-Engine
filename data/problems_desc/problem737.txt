@@ -1,0 +1,2 @@
+Given an array ofnnnintegers, your task is to find the maximum sum of values in a contiguous subarray with length betweenaaaandbbb.InputThe first input line has three integersnnn,aaaandbbb: the size of the array and the minimum and maximum subarray length.The second line hasnnnintegersx1,x2,…,xnx_1,x_2,\dots,x_nx1​,x2​,…,xn​: the array values.OutputPrint one integer: the maximum subarray sum.Constraints1≤n≤2⋅1051 \le n \le 2 \cdot 10^51≤n≤2⋅1051≤a≤b≤n1 \le a \le b \le n1≤a≤b≤n−109≤xi≤109-10^9 \le x_i \le 10^9−109≤xi​≤109ExampleInput:8 1 2
+-1 3 -2 5 3 -5 2 2Output:8

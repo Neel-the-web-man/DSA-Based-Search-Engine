@@ -1,0 +1,1 @@
+An integer hasmonotone increasing digitsif and only if each pair of adjacent digitsxandysatisfyx <= y.Given an integern, returnthe largest number that is less than or equal tonwithmonotone increasing digits.Example 1:Input:n = 10Output:9Example 2:Input:n = 1234Output:1234Example 3:Input:n = 332Output:299Constraints:0 <= n <= 109

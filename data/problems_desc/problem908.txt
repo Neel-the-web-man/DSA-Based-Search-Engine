@@ -1,0 +1,10 @@
+Your task is to efficiently process the following types of queries:Add a lineax+bax+bax+bFind the maximum point in any line at positionxxxInputThe first line has an integernnn: the number of queries.The followingnnnlines describe the queries. The format of each line is either "1aaabbb" or "2xxx".You may assume that the first query is of type 1.OutputPrint the answer for each query of type 2.Constraints1≤n≤2⋅1051 \le n \le 2 \cdot 10^51≤n≤2⋅105−109≤a,b≤109-10^9 \le a,b \le 10^9−109≤a,b≤1090≤x≤1050 \le x \le 10^50≤x≤105ExampleInput:6
+1 1 2
+2 1
+2 3
+1 0 4
+2 1
+2 3Output:3
+5
+4
+5

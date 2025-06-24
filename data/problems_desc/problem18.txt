@@ -1,0 +1,1 @@
+Given an integern, returnall the structurally uniqueBST's (binary search trees), which has exactlynnodes of unique values from1ton. Return the answer inany order.Example 1:Input:n = 3Output:[[1,null,2,null,3],[1,null,3,2],[2,1,3],[3,1,null,null,2],[3,2,null,1]]Example 2:Input:n = 1Output:[[1]]Constraints:1 <= n <= 8

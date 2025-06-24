@@ -1,0 +1,7 @@
+You are given an array containing a permutation of numbers1,2,…,n1,2,\dots,n1,2,…,n, and your task is to sort the array usingswap rounds. On each swap round, you can choose any number of distinct pairs of elements and swap each pair.Your task is to find the minimum number of rounds and show how you can choose the pairs in each round.InputThe first input line has an integernnn: the size of the array.The second line hasnnnintegersx1,x2,…,xnx_1,x_2,\dots,x_nx1​,x2​,…,xn​: the initial permutation.OutputFirst print an integerkkk: the minimum number of rounds.Then, for each round, print the number of swaps and the indices of each swap. You can print any valid solution.Constraints1≤n≤2⋅1051 \le n \le 2 \cdot 10^51≤n≤2⋅105ExampleInput:5
+5 2 1 3 4Output:2
+2
+1 3
+4 5
+1
+3 5Explanation: The initial array is[5,2,1,3,4][5,2,1,3,4][5,2,1,3,4]. After round111, the array becomes[1,2,5,4,3][1,2,5,4,3][1,2,5,4,3]. After round222, the array becomes[1,2,3,4,5][1,2,3,4,5][1,2,3,4,5].

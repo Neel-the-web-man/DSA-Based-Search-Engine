@@ -1,0 +1,6 @@
+Your task is to calculatennnbinomial coefficients modulo109+710^9+7109+7.A binomial coefficient(ab){a \choose b}(ba​)can be calculated using the formulaa!b!(a−b)!\frac{a!}{b!(a-b)!}b!(a−b)!a!​. We assume thataaaandbbbare integers and0≤b≤a0 \le b \le a0≤b≤a.InputThe first input line contains an integernnn: the number of calculations.After this, there arennnlines, each of which contains two integersaaaandbbb.OutputPrint each binomial coefficient modulo109+710^9+7109+7.Constraints1≤n≤1051 \le n \le 10^51≤n≤1050≤b≤a≤1060 \le b \le a \le 10^60≤b≤a≤106ExampleInput:3
+5 3
+8 1
+9 5Output:10
+8
+126

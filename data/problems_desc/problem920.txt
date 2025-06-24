@@ -1,0 +1,6 @@
+Given an array ofnnnintegers, you have to process following operations:reverse a subarraycalculate the sum of values in a subarrayInputThe first input line has two integersnnnandmmm: the size of the array and the number of operations. The array elements are numbered1,2,…,n1,2,\dots,n1,2,…,n.The next line asnnnintegersx1,x2,…,xnx_1,x_2,\dots,x_nx1​,x2​,…,xn​: the contents of the array.Finally, there aremmmlines that describe the operations. Each line has three integersttt,aaaandbbb. Ift=1t=1t=1, you should reverse a subarray fromaaatobbb. Ift=2t=2t=2, you should calculate the sum of values fromaaatobbb.OutputPrint the answer to each operation wheret=2t=2t=2.Constraints1≤n≤2⋅1051 \le n \le 2 \cdot 10^51≤n≤2⋅1051≤m≤1051 \le m \le 10^51≤m≤1050≤xi≤1090 \le x_i \le 10^90≤xi​≤1091≤a≤b≤n1 \le a \le b \le n1≤a≤b≤nExampleInput:8 3
+2 1 3 4 5 3 4 4
+2 2 4
+1 3 6
+2 2 4Output:8
+9

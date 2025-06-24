@@ -1,0 +1,12 @@
+There is a ball at the top-left corner of ann×mn \times mn×mgrid. The rows of the grid are numbered1,2,…,n1,2,\dots,n1,2,…,n, and the columns are numbered1,2,…,m1,2,\dots,m1,2,…,m.The ball is initially moving diagonally away from the top-left corner. At every step, it moves one cell. Whenever the ball hits the border of the grid, it changes its direction.What is the location of the ball afterkkksteps and how many times has it changed direction?InputThe first line has an integerttt: the number of tests.After this, there aretttlines. Each line has three integersnnn,mmmandkkk: the size of the grid and the number of steps.OutputFor each test, print three integers: the location of the ball and the number of direction changes.Constraints1≤t≤10001 \le t \le 10001≤t≤10002≤n,m≤1092 \le n,m \le 10^92≤n,m≤1090≤k≤10180 \le k \le 10^{18}0≤k≤1018ExampleInput:6
+3 4 0
+3 4 1
+3 4 2
+3 4 3
+3 4 4
+42 1337 123456789Output:1 1 0
+2 2 0
+3 3 1
+2 4 2
+1 3 3
+34 300 3101295

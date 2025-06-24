@@ -1,0 +1,13 @@
+There arennncities andmmmroads between them. Your task is to processqqqqueries where you have to determine the length of the shortest route between two given cities.InputThe first input line has three integersnnn,mmmandqqq: the number of cities, roads, and queries.Then, there aremmmlines describing the roads. Each line has three integersaaa,bbbandccc: there is a road between citiesaaaandbbbwhose length isccc. All roads are two-way roads.Finally, there areqqqlines describing the queries. Each line has two integersaaaandbbb: determine the length of the shortest route between citiesaaaandbbb.OutputPrint the length of the shortest route for each query. If there is no route, print−1-1−1instead.Constraints1≤n≤5001 \le n \le 5001≤n≤5001≤m≤n21 \le m \le n^21≤m≤n21≤q≤1051 \le q \le 10^51≤q≤1051≤a,b≤n1 \le a,b \le n1≤a,b≤n1≤c≤1091 \le c \le 10^91≤c≤109ExampleInput:4 3 5
+1 2 5
+1 3 9
+2 3 3
+1 2
+2 1
+1 3
+1 4
+3 2Output:5
+5
+8
+-1
+3

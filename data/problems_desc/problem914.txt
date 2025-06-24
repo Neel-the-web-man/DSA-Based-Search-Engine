@@ -1,0 +1,9 @@
+You are given a grid of letters. Your task is to find subgrids whose height and width is at least two and all the corners have the same letter.For each letter, check if there is a valid subgrid whose corners have that letter.InputThe first line has two integersnnnandkkk: the size of the grid and the number of letters. The letters are the firstkkkuppercase letters.After this, there arennnlines that describe the grid. Each line hasnnnletters.OutputPrintkkklines: for each letter,YESif there is a valid subgrid andNOotherwise.Constraints1≤n≤30001 \le n \le 30001≤n≤30001≤k≤261 \le k \le 261≤k≤26ExampleInput:4 5
+AAAA
+CBBC
+CBBE
+AAAAOutput:YES
+YES
+NO
+NO
+NO

@@ -1,0 +1,6 @@
+There is a hidden permutationa1,a2,…,ana_1, a_2,\dots, a_na1​,a2​,…,an​of integers1,2,…,n1, 2,\dots, n1,2,…,n. Your task is to find this permutation.To do this, you can ask questions: you can choose two indicesiiiandjjjand you will be told ifai<aja_i < a_jai​<aj​.InteractionThis is an interactive problem. Your code will interact with the grader using standard input and output. You should start by reading a single integernnn: the length of the permutation.On your turn, you can print one of the following:"?ij?\ i\ j?ij", where1≤i,j≤n1 \le i, j \le n1≤i,j≤n: ask ifai<aja_i < a_jai​<aj​. The grader will returnYESifai<aja_i < a_jai​<aj​andNOotherwise."!a1a2…an!\ a_1\ a_2 \dots a_n!a1​a2​…an​": report that the hidden permutation isa1,a2,…,ana_1, a_2,\dots, a_na1​,a2​,…,an​. Your program must terminate after this.Each line should be followed by a line break. You must make sure the output gets flushed after printing each line.Constraints1≤n≤10001 \le n \le 10001≤n≤1000you can ask at most10410^4104questions of type???Example3
+? 3 2
+NO
+? 3 1
+YES
+! 3 1 2Explanation: The hidden permutation is[3,1,2][3, 1, 2][3,1,2]. The first question asks ifa3<a2a_3 < a_2a3​<a2​which is false, so the answer isNO. The second question asks ifa3<a1a_3 < a_1a3​<a1​which is true, so the answer isYES.

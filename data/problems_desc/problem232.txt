@@ -1,0 +1,1 @@
+Convert a non-negative integernumto its English words representation.Example 1:Input:num = 123Output:"One Hundred Twenty Three"Example 2:Input:num = 12345Output:"Twelve Thousand Three Hundred Forty Five"Example 3:Input:num = 1234567Output:"One Million Two Hundred Thirty Four Thousand Five Hundred Sixty Seven"Constraints:0 <= num <= 231- 1

@@ -1,0 +1,2 @@
+Given an array ofnnnintegers, your task is to calculate the number of subarrays that have at mostkkkdistinct values.InputThe first input line has two integersnnnandkkk.The next line hasnnnintegersx1,x2,…,xnx_1,x_2,\dots,x_nx1​,x2​,…,xn​: the contents of the array.OutputPrint one integer: the number of subarrays.Constraints1≤k≤n≤2⋅1051 \le k \le n \le 2 \cdot 10^51≤k≤n≤2⋅1051≤xi≤1091 \le x_i \le 10^91≤xi​≤109ExampleInput:5 2
+1 2 3 1 1Output:10

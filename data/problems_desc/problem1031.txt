@@ -1,0 +1,6 @@
+Given two integersnnnandkkk, your task is to count the number of arraysa1,a2,…,ana_1, a_2,\dots, a_na1​,a2​,…,an​of positive integers wherelcm⁡(ai,ai+1)=k\operatorname{lcm}(a_i, a_{i+1}) = klcm(ai​,ai+1​)=kfor all1≤i<n1 \le i < n1≤i<n.InputThe first line has an integerttt: the number of test cases.The nexttttlines have two integersnnnandkkk: the length of the array and the value of lcm.OutputPrinttttintegers: the answer to each test case modulo109+710^9 + 7109+7.Constraints1≤t≤10001 \le t \le 10001≤t≤10002≤n≤1092 \le n \le 10^92≤n≤1091≤k≤1091 \le k \le 10^91≤k≤109ExampleInput:3
+3 4
+4 6
+1337 42Output:11
+64
+602746233Explanation: The arrays for the first test case are[1,4,1][1, 4, 1][1,4,1],[1,4,2][1, 4, 2][1,4,2],[1,4,4][1, 4, 4][1,4,4],[2,4,1][2, 4, 1][2,4,1],[2,4,2][2, 4, 2][2,4,2],[2,4,4][2, 4, 4][2,4,4],[4,1,4][4, 1, 4][4,1,4],[4,2,4][4, 2, 4][4,2,4],[4,4,1][4, 4, 1][4,4,1],[4,4,2][4, 4, 2][4,4,2]and[4,4,4][4, 4, 4][4,4,4].

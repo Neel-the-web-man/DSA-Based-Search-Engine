@@ -1,0 +1,11 @@
+Given a set ofnnnpoints in the two-dimensional plane, your task is to determine the convex hull of the points.InputThe first input line has an integernnn: the number of points.After this, there arennnlines that describe the points. Each line has two integersxxxandyyy: the coordinates of a point.You may assume that each point is distinct, and the area of the hull is positive.OutputFirst print an integerkkk: the number of points in the convex hull.After this, printkkklines that describe the points. You can print the points in any order. Print all points that lie on the convex hull.Constraints3≤n≤2⋅1053 \le n \le 2 \cdot 10^53≤n≤2⋅105−109≤x,y≤109-10^9 \le x, y \le 10^9−109≤x,y≤109ExampleInput:6
+2 1
+2 5
+3 3
+4 3
+4 4
+6 3Output:4
+2 1
+2 5
+4 4
+6 3

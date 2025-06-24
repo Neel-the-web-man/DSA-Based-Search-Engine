@@ -1,0 +1,1 @@
+Your task is to calculate the number of bit strings of lengthnnn.For example, ifn=3n=3n=3, the correct answer is888, because the possible bit strings are 000, 001, 010, 011, 100, 101, 110, and 111.InputThe only input line has an integernnn.OutputPrint the result modulo109+710^9+7109+7.Constraints1≤n≤1061 \le n \le 10^61≤n≤106ExampleInput:3Output:8

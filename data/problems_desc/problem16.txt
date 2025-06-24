@@ -1,0 +1,9 @@
+We can scramble a string s to get a string t using the following algorithm:If the length of the string is 1, stop.If the length of the string is > 1, do the following:Split the string into two non-empty substrings at a random index, i.e., if the string iss, divide it toxandywheres = x + y.Randomlydecide to swap the two substrings or to keep them in the same order. i.e., after this step,smay becomes = x + yors = y + x.Apply step 1 recursively on each of the two substringsxandy.Given two stringss1ands2ofthe same length, returntrueifs2is a scrambled string ofs1, otherwise, returnfalse.Example 1:Input:s1 = "great", s2 = "rgeat"Output:trueExplanation:One possible scenario applied on s1 is:
+"great" --> "gr/eat" // divide at random index.
+"gr/eat" --> "gr/eat" // random decision is not to swap the two substrings and keep them in order.
+"gr/eat" --> "g/r / e/at" // apply the same algorithm recursively on both substrings. divide at random index each of them.
+"g/r / e/at" --> "r/g / e/at" // random decision was to swap the first substring and to keep the second substring in the same order.
+"r/g / e/at" --> "r/g / e/ a/t" // again apply the algorithm recursively, divide "at" to "a/t".
+"r/g / e/ a/t" --> "r/g / e/ a/t" // random decision is to keep both substrings in the same order.
+The algorithm stops now, and the result string is "rgeat" which is s2.
+As one possible scenario led s1 to be scrambled to s2, we return true.Example 2:Input:s1 = "abcde", s2 = "caebd"Output:falseExample 3:Input:s1 = "a", s2 = "a"Output:trueConstraints:s1.length == s2.length1 <= s1.length <= 30s1ands2consist of lowercase English letters.

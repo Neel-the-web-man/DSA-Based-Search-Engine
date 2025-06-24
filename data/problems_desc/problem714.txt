@@ -1,0 +1,7 @@
+You are given an array that contains each number between1…n1 \dots n1…nexactly once. Your task is to collect the numbers from111tonnnin increasing order.On each round, you go through the array from left to right and collect as many numbers as possible.Givenmmmoperations that swap two numbers in the array, your task is to report the number of rounds after each operation.InputThe first line has two integersnnnandmmm: the array size and the number of operations.The next line hasnnnintegersx1,x2,…,xnx_1,x_2,\dots,x_nx1​,x2​,…,xn​: the numbers in the array.Finally, there aremmmlines that describe the operations. Each line has two integersaaaandbbb: the numbers at positionsaaaandbbbare swapped.OutputPrintmmmintegers: the number of rounds after each swap.Constraints1≤n,m≤2⋅1051 \le n, m \le 2 \cdot 10^51≤n,m≤2⋅1051≤a,b≤n1 \le a,b \le n1≤a,b≤nExampleInput:5 3
+4 2 1 5 3
+2 3
+1 5
+2 3Output:2
+3
+4

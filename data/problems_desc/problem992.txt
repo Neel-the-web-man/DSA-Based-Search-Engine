@@ -1,0 +1,7 @@
+There arennncities andmmmflight connections between them. A city is called acritical cityif it appears on every route from a city to another city.Your task is to find all critical cities from Syrjälä to Lehmälä.InputThe first input line has two integersnnnandmmm: the number of cities and flights. The cities are numbered1,2,…,n1,2,\dots,n1,2,…,n. City111is Syrjälä, and citynnnis Lehmälä.Then, there aremmmlines describing the connections. Each line has two integersaaaandbbb: there is a flight from cityaaato citybbb. All flights are one-way.You may assume that there is a route from Syrjälä to Lehmälä.OutputFirst print an integerkkk: the number of critical cities. After this, printkkkintegers: the critical cities in increasing order.Constraints2≤n≤1052 \le n \le 10^52≤n≤1051≤m≤2⋅1051 \le m \le 2 \cdot 10^51≤m≤2⋅1051≤a,b≤n1 \le a,b \le n1≤a,b≤nExampleInput:5 5
+1 2
+2 3
+2 4
+3 5
+4 5Output:3
+1 2 5

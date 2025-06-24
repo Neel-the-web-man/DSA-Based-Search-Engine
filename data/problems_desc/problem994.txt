@@ -1,0 +1,6 @@
+You are given a simple graph withnnnnodes andmmmedges. Your task is to use the minimum possible number of colors to color each node such that no edge connects two nodes of the same color.InputThe first line has two integersnnnandmmm: the number of nodes and edges. The nodes are numbered1,2,…,n1, 2,\dots, n1,2,…,n.Then there aremmmlines describing the edges. Each line has two integersaaaandbbb: there is an edge connecting nodesaaaandbbb.OutputFirst, print an integerkkk: the minimum number of colors.After this, printnnnintegersc1,c2,…,cnc_1, c_2,\dots, c_nc1​,c2​,…,cn​: the colors of the nodes. The colors should satisfy1≤ci≤k1 \le c_i \le k1≤ci​≤k.You may print any valid solution.Constraints1≤n≤161 \le n \le 161≤n≤160≤m≤n(n−1)20 \le m \le \frac{n(n-1)}{2}0≤m≤2n(n−1)​ExampleInput:4 4
+1 2
+2 3
+3 4
+4 1Output:2
+1 2 1 2

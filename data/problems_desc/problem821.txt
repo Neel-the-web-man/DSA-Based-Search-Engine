@@ -1,0 +1,7 @@
+You havennncoins with positive integer values. The coins are numbered1,2,…,n1,2,\dots,n1,2,…,n.Your task is to processqqqqueries of the form: "if you can use coinsa…ba \dots ba…b, what is the smallest sum you cannot produce?"InputThe first input line has two integersnnnandqqq: the number of coins and queries.The second line hasnnnintegersx1,x2,…,xnx_1,x_2,\dots,x_nx1​,x2​,…,xn​: the value of each coin.Finally, there areqqqlines that describe the queries. Each line has two valuesaaaandbbb: you can use coinsa…ba \dots ba…b.OutputPrint the answer for each query.Constraints1≤n,q≤2⋅1051 \le n, q \le 2 \cdot 10^51≤n,q≤2⋅1051≤xi≤1091 \le x_i \le 10^91≤xi​≤1091≤a≤b≤n1 \le a \le b \le n1≤a≤b≤nExampleInput:5 3
+2 9 1 2 7
+2 4
+4 4
+1 5Output:4
+1
+6Explanation: First you can use coins[9,1,2][9,1,2][9,1,2], then coins[2][2][2]and finally coins[2,9,1,2,7][2,9,1,2,7][2,9,1,2,7].

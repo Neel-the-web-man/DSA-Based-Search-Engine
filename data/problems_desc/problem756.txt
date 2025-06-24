@@ -1,0 +1,5 @@
+There arennnprojects you can attend. For each project, you know its starting and ending days and the amount of money you would get as reward. You can only attend one project during a day.What is the maximum amount of money you can earn?InputThe first input line contains an integernnn: the number of projects.After this, there arennnlines. Each such line has three integersaia_iai​,bib_ibi​, andpip_ipi​: the starting day, the ending day, and the reward.OutputPrint one integer: the maximum amount of money you can earn.Constraints1≤n≤2⋅1051 \le n \le 2 \cdot 10^51≤n≤2⋅1051≤ai≤bi≤1091 \le a_i \le b_i \le 10^91≤ai​≤bi​≤1091≤pi≤1091 \le p_i \le 10^91≤pi​≤109ExampleInput:4
+2 4 4
+3 6 6
+6 8 2
+5 7 3Output:7

@@ -1,0 +1,8 @@
+Given an integern, returnan arrayansof lengthn + 1such that for eachi(0 <= i <= n),ans[i]is thenumber of1'sin the binary representation ofi.Example 1:Input:n = 2Output:[0,1,1]Explanation:0 --> 0
+1 --> 1
+2 --> 10Example 2:Input:n = 5Output:[0,1,1,2,1,2]Explanation:0 --> 0
+1 --> 1
+2 --> 10
+3 --> 11
+4 --> 100
+5 --> 101Constraints:0 <= n <= 105Follow up:It is very easy to come up with a solution with a runtime ofO(n log n). Can you do it in linear timeO(n)and possibly in a single pass?Can you do it without using any built-in function (i.e., like__builtin_popcountin C++)?

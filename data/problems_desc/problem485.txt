@@ -1,0 +1,5 @@
+You are given a0-indexedstringblocksof lengthn, whereblocks[i]is either'W'or'B', representing the color of theithblock. The characters'W'and'B'denote the colors white and black, respectively.You are also given an integerk, which is the desired number ofconsecutiveblack blocks.In one operation, you canrecolora white block such that it becomes a black block.Returntheminimumnumber of operations needed such that there is at leastoneoccurrence ofkconsecutive black blocks.Example 1:Input:blocks = "WBBWWBBWBW", k = 7Output:3Explanation:One way to achieve 7 consecutive black blocks is to recolor the 0th, 3rd, and 4th blocks
+so that blocks = "BBBBBBBWBW". 
+It can be shown that there is no way to achieve 7 consecutive black blocks in less than 3 operations.
+Therefore, we return 3.Example 2:Input:blocks = "WBWBBBW", k = 2Output:0Explanation:No changes need to be made, since 2 consecutive black blocks already exist.
+Therefore, we return 0.Constraints:n == blocks.length1 <= n <= 100blocks[i]is either'W'or'B'.1 <= k <= n

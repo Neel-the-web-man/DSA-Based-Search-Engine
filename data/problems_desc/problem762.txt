@@ -1,0 +1,8 @@
+You are given a map of a labyrinth, and your task is to find a path from start to end. You can walk left, right, up and down.InputThe first input line has two integersnnnandmmm: the height and width of the map.Then there arennnlines ofmmmcharacters describing the labyrinth. Each character is.(floor),#(wall),A(start), orB(end). There is exactly oneAand oneBin the input.OutputFirst print "YES", if there is a path, and "NO" otherwise.If there is a path, print the length of the shortest such path and its description as a string consisting of charactersL(left),R(right),U(up), andD(down). You can print any valid solution.Constraints1≤n,m≤10001 \le n,m \le 10001≤n,m≤1000ExampleInput:5 8
+########
+#.A#...#
+#.##.#B#
+#......#
+########Output:YES
+9
+LDDRRRRRU

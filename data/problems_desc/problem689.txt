@@ -1,0 +1,6 @@
+You have two coin piles containingaaaandbbbcoins. On each move, you can either remove one coin from the left pile and two coins from the right pile, or two coins from the left pile and one coin from the right pile.Your task is to efficiently find out if you can empty both the piles.InputThe first input line has an integerttt: the number of tests.After this, there aretttlines, each of which has two integersaaaandbbb: the numbers of coins in the piles.OutputFor each test, print "YES" if you can empty the piles and "NO" otherwise.Constraints1≤t≤1051 \le t \le 10^51≤t≤1050≤a,b≤1090 \le a, b \le 10^90≤a,b≤109ExampleInput:3
+2 1
+2 2
+3 3Output:YES
+NO
+YES

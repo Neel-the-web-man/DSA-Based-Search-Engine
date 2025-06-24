@@ -1,0 +1,6 @@
+You are given ann×nn \times nn×ngrid whose each square is either black or white. A subgrid is calledbeautifulif its height and width is at least two and all of its corners are black. How many beautiful subgrids are there within the given grid?InputThe first input line has an integernnn: the size of the grid.Then there arennnlines describing the grid:1means that a square is black and0means it is white.OutputPrint the number of beautiful subgrids.Constraints1≤n≤30001 \le n \le 30001≤n≤3000ExampleInput:5
+00010
+11111
+00110
+11001
+00010Output:4

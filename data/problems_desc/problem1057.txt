@@ -1,0 +1,1 @@
+Your task is to find a minimum length bit string that has exactlynnndistinct subsequences.For example, a correct solution forn=6n=6n=6is101whose distinct subsequences are0,1,01,10,11and101.InputThe only input line has an integernnn.OutputPrint one bit string: a solution to the task. You can print any valid solution.Constraints1≤n≤1061 \le n \le 10^61≤n≤106ExampleInput:6Output:101

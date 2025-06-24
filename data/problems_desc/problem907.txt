@@ -1,0 +1,5 @@
+There arennnline segments whose endpoints have integer coordinates. Each x-coordinate is between000andmmm. The slope of each segment is an integer.For each x-coordinate0,1,…,m0,1,\dots,m0,1,…,m, find the maximum point in any line segment. If there is no segment at some point, the maximum is−1-1−1.InputThe first line has two integersnnnandmmm: the number of line segments and the maximum x-coordinate.The nextnnnlines describe the line segments. Each line has four integersx1x_1x1​,y1y_1y1​,x2x_2x2​andy2y_2y2​: there is a line segment between points(x1,y1)(x_1,y_1)(x1​,y1​)and(x2,y2)(x_2,y_2)(x2​,y2​).OutputPrintm+1m+1m+1integers: the maximum points forx=0,1,…,mx=0,1,\dots,mx=0,1,…,m.Constraints1≤n,m≤1051 \le n, m \le 10^51≤n,m≤1050≤x1<x2≤m0 \le x_1 < x_2 \le m0≤x1​<x2​≤m0≤y1,y2≤1090 \le y_1,y_2 \le 10^90≤y1​,y2​≤109ExampleInput:4 5
+1 1 3 3
+1 2 4 2
+2 4 5 7
+2 8 5 2Output:-1 2 8 6 6 7

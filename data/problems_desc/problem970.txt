@@ -1,0 +1,5 @@
+Create ann×nn \times nn×ngrid that fulfills the following requirements:Each integer1…n1 \dots n1…nappearsnnntimes in the grid.If we create a set that consists of all sums in rows and columns, there are2n2n2ndistinct values.InputThe only line has an integernnn.OutputPrint a grid that fulfills the requirements. You can print any valid solution. If there are no solutions, printIMPOSSIBLE.Constraints1≤n≤10001 \le n \le 10001≤n≤1000ExampleInput:5Output:2 3 1 1 1 
+1 5 5 3 3 
+2 3 5 2 4 
+5 4 5 4 1 
+2 3 4 4 2Explanation: Each integer1…51 \dots 51…5appears555times, and the sums in rows and columns are{8,11,12,14,15,16,17,18,19,20}\{8,11,12,14,15,16,17,18,19,20\}{8,11,12,14,15,16,17,18,19,20}.

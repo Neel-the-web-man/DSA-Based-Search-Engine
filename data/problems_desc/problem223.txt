@@ -1,0 +1,8 @@
+Atrie(pronounced as "try") orprefix treeis a tree data structure used to efficiently store and retrieve keys in a dataset of strings. There are various applications of this data structure, such as autocomplete and spellchecker.Implement the Trie class:Trie()Initializes the trie object.void insert(String word)Inserts the stringwordinto the trie.boolean search(String word)Returnstrueif the stringwordis in the trie (i.e., was inserted before), andfalseotherwise.boolean startsWith(String prefix)Returnstrueif there is a previously inserted stringwordthat has the prefixprefix, andfalseotherwise.Example 1:Input["Trie", "insert", "search", "search", "startsWith", "insert", "search"]
+[[], ["apple"], ["apple"], ["app"], ["app"], ["app"], ["app"]]Output[null, null, true, false, true, null, true]ExplanationTrie trie = new Trie();
+trie.insert("apple");
+trie.search("apple");   // return True
+trie.search("app");     // return False
+trie.startsWith("app"); // return True
+trie.insert("app");
+trie.search("app");     // return TrueConstraints:1 <= word.length, prefix.length <= 2000wordandprefixconsist only of lowercase English letters.At most3 * 104callsin totalwill be made toinsert,search, andstartsWith.

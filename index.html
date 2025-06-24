@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Neel Search</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="searchbar">
+      <h1 class="logo">DSA Based Search</h1>
+      <form id="search-form">
+        <input type="text" id="search-input" placeholder="Search..." />
+        <button type="submit">Search</button>
+      </form>
+      <div class="filters">
+        <select id="difficulty-filter">
+          <option value="">All Difficulty</option>
+          <option value="Easy">Easy</option>
+          <option value="Medium">Medium</option>
+          <option value="Hard">Hard</option>
+        </select>
+        <select id="tag-filter">
+          <option value="">All Tags</option>
+          <option value="Array">Array</option>
+          <option value="DP">DP</option>
+          <option value="Graph">Graph</option>
+          <option value="Tree">Tree</option>
+        </select>
+      </div>
+    </div>
+
+    <div id="results"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+<!-- webscrapping in selenium and beautiful soup -->

@@ -1,0 +1,9 @@
+There are8prison cells in a row and each cell is either occupied or vacant.Each day, whether the cell is occupied or vacant changes according to the following rules:If a cell has two adjacent neighbors that are both occupied or both vacant, then the cell becomes occupied.Otherwise, it becomes vacant.Notethat because the prison is a row, the first and the last cells in the row can't have two adjacent neighbors.You are given an integer arraycellswherecells[i] == 1if theithcell is occupied andcells[i] == 0if theithcell is vacant, and you are given an integern.Return the state of the prison afterndays (i.e.,nsuch changes described above).Example 1:Input:cells = [0,1,0,1,1,0,0,1], n = 7Output:[0,0,1,1,0,0,0,0]Explanation:The following table summarizes the state of the prison on each day:
+Day 0: [0, 1, 0, 1, 1, 0, 0, 1]
+Day 1: [0, 1, 1, 0, 0, 0, 0, 0]
+Day 2: [0, 0, 0, 0, 1, 1, 1, 0]
+Day 3: [0, 1, 1, 0, 0, 1, 0, 0]
+Day 4: [0, 0, 0, 0, 0, 1, 0, 0]
+Day 5: [0, 1, 1, 1, 0, 1, 0, 0]
+Day 6: [0, 0, 1, 0, 1, 1, 0, 0]
+Day 7: [0, 0, 1, 1, 0, 0, 0, 0]Example 2:Input:cells = [1,0,0,1,0,0,1,0], n = 1000000000Output:[0,0,1,1,1,1,1,0]Constraints:cells.length == 8cells[i]is either0or1.1 <= n <= 109

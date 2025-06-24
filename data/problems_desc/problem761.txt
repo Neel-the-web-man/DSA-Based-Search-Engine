@@ -1,0 +1,6 @@
+You are given a map of a building, and your task is to count the number of its rooms. The size of the map isn×mn \times mn×msquares, and each square is either floor or wall. You can walk left, right, up, and down through the floor squares.InputThe first input line has two integersnnnandmmm: the height and width of the map.Then there arennnlines ofmmmcharacters describing the map. Each character is either.(floor) or#(wall).OutputPrint one integer: the number of rooms.Constraints1≤n,m≤10001 \le n,m \le 10001≤n,m≤1000ExampleInput:5 8
+########
+#..#...#
+####.#.#
+#..#...#
+########Output:3

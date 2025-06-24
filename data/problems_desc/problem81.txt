@@ -1,0 +1,6 @@
+Suppose you havenintegers labeled1throughn. A permutation of thosenintegersperm(1-indexed) is considered abeautiful arrangementif for everyi(1 <= i <= n),eitherof the following is true:perm[i]is divisible byi.iis divisible byperm[i].Given an integern, returnthenumberof thebeautiful arrangementsthat you can construct.Example 1:Input:n = 2Output:2Explanation:The first beautiful arrangement is [1,2]:
+    - perm[1] = 1 is divisible by i = 1
+    - perm[2] = 2 is divisible by i = 2
+The second beautiful arrangement is [2,1]:
+    - perm[1] = 2 is divisible by i = 1
+    - i = 2 is divisible by perm[2] = 1Example 2:Input:n = 1Output:1Constraints:1 <= n <= 15

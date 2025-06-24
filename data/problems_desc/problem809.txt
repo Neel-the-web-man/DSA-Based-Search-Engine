@@ -1,0 +1,7 @@
+There arennnbuildings in a row numbered1,2,…,n1, 2,\dots, n1,2,…,nfrom left to right. You are standing to the left of the first building. You can see a building if it is taller than any building to its left.Your task is to processqqqqueries: If only buildings in range[a,b][a, b][a,b]existed, how many buildings would you see?InputThe first line has two integersnnnandqqq: the number of buildings and queries.The second line hasnnnintegersh1,h2,…,hnh_1, h_2, \dots, h_nh1​,h2​,…,hn​: the heights of the buildings.Finally, there areqqqlines describing the queries. Each line has two integersaaaandbbb.OutputFor each query, print one integer: the number of visible buildings.Constraints1≤n≤1051 \le n \le 10^51≤n≤1051≤q≤2⋅1051 \le q \le 2 \cdot 10^51≤q≤2⋅1051≤hi≤1091 \le h_i \le 10^91≤hi​≤1091≤a≤b≤n1 \le a \le b \le n1≤a≤b≤nExampleInput:5 3
+4 1 2 2 3
+1 5
+2 5
+3 4Output:1
+3
+1

@@ -1,0 +1,1 @@
+Given an integer arraynumsand an integerk, returntrueif there are twodistinct indicesiandjin the array such thatnums[i] == nums[j]andabs(i - j) <= k.Example 1:Input:nums = [1,2,3,1], k = 3Output:trueExample 2:Input:nums = [1,0,1,1], k = 1Output:trueExample 3:Input:nums = [1,2,3,1,2,3], k = 2Output:falseConstraints:1 <= nums.length <= 105-109<= nums[i] <= 1090 <= k <= 105

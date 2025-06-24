@@ -1,0 +1,6 @@
+You are given a string of lengthnnnand a dictionary containingkkkwords. In how many ways can you create the string using the words?InputThe first input line has a string containingnnncharacters between a–z.The second line has an integerkkk: the number of words in the dictionary.Finally there arekkklines describing the words. Each word is unique and consists of characters a–z.OutputPrint the number of ways modulo109+710^9+7109+7.Constraints1≤n≤50001 \le n \le 50001≤n≤50001≤k≤1051 \le k \le 10^51≤k≤105the total length of the words is at most10610^6106ExampleInput:ababc
+4
+ab
+abab
+c
+cbOutput:2Explanation: The possible ways areab+ab+candabab+c.

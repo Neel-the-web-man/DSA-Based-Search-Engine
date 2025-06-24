@@ -1,0 +1,2 @@
+Given an array ofnnnpositive integers, your task is to count the number of subarrays having sumxxx.InputThe first input line has two integersnnnandxxx: the size of the array and the target sumxxx.The next line hasnnnintegersa1,a2,…,ana_1,a_2,\dots,a_na1​,a2​,…,an​: the contents of the array.OutputPrint one integer: the required number of subarrays.Constraints1≤n≤2⋅1051 \le n \le 2 \cdot 10^51≤n≤2⋅1051≤x,ai≤1091 \le x,a_i \le 10^91≤x,ai​≤109ExampleInput:5 7
+2 4 1 2 7Output:3

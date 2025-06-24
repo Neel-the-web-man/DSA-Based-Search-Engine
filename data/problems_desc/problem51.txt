@@ -1,0 +1,1 @@
+Given an integern, break it into the sum ofkpositive integers, wherek >= 2, and maximize the product of those integers.Returnthe maximum product you can get.Example 1:Input:n = 2Output:1Explanation:2 = 1 + 1, 1 × 1 = 1.Example 2:Input:n = 10Output:36Explanation:10 = 3 + 3 + 4, 3 × 3 × 4 = 36.Constraints:2 <= n <= 58

@@ -1,0 +1,1 @@
+Your task is to calculate the number of valid bracket sequences of lengthnnn. For example, whenn=6n=6n=6, there are555sequences:()()()()(())(())()((()))(()())InputThe only input line has an integernnn.OutputPrint the number of sequences modulo109+710^9+7109+7.Constraints1≤n≤1061 \le n \le 10^61≤n≤106ExampleInput:6Output:5

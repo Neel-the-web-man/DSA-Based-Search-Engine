@@ -1,0 +1,8 @@
+Your task is to fill ann×mn \times mn×mgrid using L-trominos (three squares that have an L-shape). For example, here is one way to fill a4×64 \times 64×6grid:InputThe first input line has an integerttt: the number of tests.After that, there aretttlines that describe the tests. Each line has two integersnnnandmmm.OutputFor each test, print YES if there is a solution, and NO otherwise.If there is a solution, also printnnnlines that each containmmmletters between A–Z. Adjacent squares must have the same letter exactly when they belong to the same tromino. You can print any valid solution.Constraints1≤t≤1001 \le t \le 1001≤t≤1001≤n,m≤1001 \le n,m \le 1001≤n,m≤100ExampleInput:2
+4 6
+4 7Output:YES
+AADDBB
+ACCDEB
+BCAEEC
+BBAACC
+NO

@@ -1,0 +1,9 @@
+Given a collection of candidate numbers (candidates) and a target number (target), find all unique combinations incandidateswhere the candidate numbers sum totarget.Each number incandidatesmay only be usedoncein the combination.Note:The solution set must not contain duplicate combinations.Example 1:Input:candidates = [10,1,2,7,6,1,5], target = 8Output:[
+[1,1,6],
+[1,2,5],
+[1,7],
+[2,6]
+]Example 2:Input:candidates = [2,5,2,1,2], target = 5Output:[
+[1,2,2],
+[5]
+]Constraints:1 <= candidates.length <= 1001 <= candidates[i] <= 501 <= target <= 30

@@ -1,0 +1,6 @@
+There is a line that goes through the pointsp1=(x1,y1)p_1=(x_1,y_1)p1​=(x1​,y1​)andp2=(x2,y2)p_2=(x_2,y_2)p2​=(x2​,y2​). There is also a pointp3=(x3,y3)p_3=(x_3,y_3)p3​=(x3​,y3​).Your task is to determine whetherp3p_3p3​is located on the left or right side of the line or if it touches the line when we are looking fromp1p_1p1​top2p_2p2​.InputThe first input line has an integerttt: the number of tests.After this, there aretttlines that describe the tests. Each line has six integers:x1x_1x1​,y1y_1y1​,x2x_2x2​,y2y_2y2​,x3x_3x3​andy3y_3y3​.OutputFor each test, print "LEFT", "RIGHT" or "TOUCH".Constraints1≤t≤1051 \le t \le 10^51≤t≤105−109≤x1,y1,x2,y2,x3,y3≤109-10^9 \le x_1, y_1, x_2, y_2, x_3, y_3 \le 10^9−109≤x1​,y1​,x2​,y2​,x3​,y3​≤109x1≠x2x_1 \neq x_2x1​=x2​ory1≠y2y_1 \neq y_2y1​=y2​ExampleInput:3
+1 1 5 3 2 3
+1 1 5 3 4 1
+1 1 5 3 3 2Output:LEFT
+RIGHT
+TOUCH

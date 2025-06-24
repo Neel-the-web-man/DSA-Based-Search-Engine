@@ -1,0 +1,6 @@
+Givennnnintegers, your task is to report for each integer the number of its divisors.For example, ifx=18x=18x=18, the correct answer is666because its divisors are1,2,3,6,9,181,2,3,6,9,181,2,3,6,9,18.InputThe first input line has an integernnn: the number of integers.After this, there arennnlines, each containing an integerxxx.OutputFor each integer, print the number of its divisors.Constraints1≤n≤1051 \le n \le 10^51≤n≤1051≤x≤1061 \le x \le 10^61≤x≤106ExampleInput:3
+16
+17
+18Output:5
+2
+6

@@ -1,0 +1,3 @@
+Given an array ofnnnintegers, your task is to find all integers that are the xor sum in some subarray.InputThe first line has an integernnn: the size of the array.The next line hasnnnintegersx1,x2,…,xnx_1,x_2,\dots,x_nx1​,x2​,…,xn​: the contents of the array.OutputFirst print an integerkkk: the number of distinct integers that are the xor sum in some subarray.After this printkkkintegers: the xor sums in increasing order.Constraints1≤n≤2⋅1051 \le n \le 2 \cdot 10^51≤n≤2⋅1050≤xi≤1060 \le x_i \le 10^60≤xi​≤106ExampleInput:4
+5 1 5 9Output:7
+1 4 5 8 9 12 13

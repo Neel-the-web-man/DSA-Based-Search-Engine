@@ -1,0 +1,4 @@
+You are given an undirected graph that hasnnnnodes andmmmedges.We consider subgraphs that have all nodes of the original graph and some of its edges. A subgraph is calledEulerianif each node has even degree.Your task is to count the number of Eulerian subgraphs modulo109+710^9+7109+7.InputThe first input line has two integersnnnandmmm: the number of nodes and edges. The nodes are numbered1,2,…,n1,2,\dots,n1,2,…,n.After this, there aremmmlines that describe the edges. Each line has two integersaaaandbbb: there is an edge between nodesaaaandbbb. There is at most one edge between two nodes, and each edge connects two distinct nodes.OutputPrint the number of Eulerian subgraphs modulo109+710^9+7109+7.Constraints1≤n≤1051 \le n \le 10^51≤n≤1050≤m≤2⋅1050 \le m \le 2 \cdot 10^50≤m≤2⋅1051≤a,b≤n1 \le a,b \le n1≤a,b≤nExampleInput:4 3
+1 2
+1 3
+2 3Output:2Explanation: You can either keep or remove all edges, so there are two possible Eulerian subgraphs.

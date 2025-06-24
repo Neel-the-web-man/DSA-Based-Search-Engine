@@ -1,0 +1,12 @@
+Given two (not rooted) trees, your task is to find out if they areisomorphic, i.e., it is possible to draw them so that they look the same.InputThe first input line has an integerttt: the number of tests. Then, there arettttests described as follows:The first line has an integernnn: the number of nodes in both trees. The nodes are numbered1,2,…,n1,2,\dots,n1,2,…,n.Then, there aren−1n-1n−1lines describing the edges of the first tree, and finallyn−1n-1n−1lines describing the edges of the second tree.OutputFor each test, print "YES", if the trees are isomorphic, and "NO" otherwise.Constraints1≤t≤10001 \le t \le 10001≤t≤10002≤n≤1052 \le n \le 10^52≤n≤105the sum of all values ofnnnis at most10510^5105ExampleInput:2
+3
+1 2
+2 3
+1 2
+1 3
+3
+1 2
+2 3
+1 3
+3 2Output:YES
+YES

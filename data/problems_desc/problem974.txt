@@ -1,0 +1,5 @@
+APrüfer codeof a tree ofnnnnodes is a sequence ofn−2n-2n−2integers that uniquely specifies the structure of the tree.The code is constructed as follows: As long as there are at least three nodes left, find a leaf with the smallest label, add the label of its only neighbor to the code, and remove the leaf from the tree.Given a Prüfer code of a tree, your task is to construct the original tree.InputThe first input line contains an integernnn: the number of nodes. The nodes are numbered1,2,…,n1,2,\ldots,n1,2,…,n.The second line containsn−2n-2n−2integers: the Prüfer code.OutputPrintn−1n-1n−1lines describing the edges of the tree. Each line has to contain two integersaaaandbbb: there is an edge between nodesaaaandbbb. You can print the edges in any order.Constraints3≤n≤2⋅1053 \le n \le 2 \cdot 10^53≤n≤2⋅1051≤a,b≤n1 \le a,b \le n1≤a,b≤nExampleInput:5
+2 2 4Output:1 2
+2 3
+2 4
+4 5

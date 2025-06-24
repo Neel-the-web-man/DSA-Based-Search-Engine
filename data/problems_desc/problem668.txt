@@ -1,0 +1,2 @@
+You are given an integernand an integerstart.Define an arraynumswherenums[i] = start + 2 * i(0-indexed) andn == nums.length.Returnthe bitwise XOR of all elements ofnums.Example 1:Input:n = 5, start = 0Output:8Explanation:Array nums is equal to [0, 2, 4, 6, 8] where (0 ^ 2 ^ 4 ^ 6 ^ 8) = 8.
+Where "^" corresponds to bitwise XOR operator.Example 2:Input:n = 4, start = 3Output:8Explanation:Array nums is equal to [3, 5, 7, 9] where (3 ^ 5 ^ 7 ^ 9) = 8.Constraints:1 <= n <= 10000 <= start <= 1000n == nums.length

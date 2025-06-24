@@ -1,0 +1,2 @@
+You are given a playlist of a radio station since its establishment. The playlist has a total ofnnnsongs.What is the longest sequence of successive songs where each song is unique?InputThe first input line contains an integernnn: the number of songs.The next line hasnnnintegersk1,k2,…,knk_1,k_2,\ldots,k_nk1​,k2​,…,kn​: the id number of each song.OutputPrint the length of the longest sequence of unique songs.Constraints1≤n≤2⋅1051 \le n \le 2 \cdot 10^51≤n≤2⋅1051≤ki≤1091 \le k_i \le 10^91≤ki​≤109ExampleInput:8
+1 2 1 3 2 7 4 2Output:5

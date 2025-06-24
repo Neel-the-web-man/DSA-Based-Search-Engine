@@ -1,0 +1,8 @@
+There arennncities andmmmbus companies. Each bus company operates in specific cities and sells tickets for a specific price. Buying a ticket from a bus company allows you to travel between any two cities that the company operates in.Determine the cost of the cheapest route from Syrjälä to every city.InputThe first line has two integersnnnandmmm: the number of cities and bus companies. The cities are numbered1,2,…,n1,2,\dots,n1,2,…,n, and city111is Syrjälä.The next line hasmmmintegersc1,c2,…,cmc_1, c_2,\dots, c_mc1​,c2​,…,cm​: the ticket costs for each bus company.After that, there aremmmpairs of lines describing the cities for each bus company.The first line of each pair has a single integerkkk: the number of cities the bus company operates in.The second line of each pair haskkkdistinct integersa1,a2,…,aka_1, a_2,\dots, a_ka1​,a2​,…,ak​: the cities the bus company operates in.You can assume that it is possible to travel from Syrjälä to all other cities.OutputPrintnnnintegers: the cheapest route costs from Syrjälä to cities1,2,…,n1,2,\dots, n1,2,…,n.Constraints1≤n,m≤1051 \le n, m \le 10^51≤n,m≤1051≤c≤1091 \le c \le 10^91≤c≤1092≤k≤n2 \le k \le n2≤k≤n1≤a≤n1 \le a \le n1≤a≤nthe sum of allkkkis at most2⋅1052 \cdot 10^52⋅105ExampleInput:5 3
+4 3 2
+3
+1 4 3
+2
+5 1
+4
+2 3 4 5Output:0 5 4 4 3

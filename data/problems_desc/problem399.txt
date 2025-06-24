@@ -1,0 +1,4 @@
+You are givenkidentical eggs and you have access to a building withnfloors labeled from1ton.You know that there exists a floorfwhere0 <= f <= nsuch that any egg dropped at a floorhigherthanfwillbreak, and any egg droppedat or belowfloorfwillnot break.Each move, you may take an unbroken egg and drop it from any floorx(where1 <= x <= n). If the egg breaks, you can no longer use it. However, if the egg does not break, you mayreuseit in future moves.Returntheminimum number of movesthat you need to determinewith certaintywhat the value offis.Example 1:Input:k = 1, n = 2Output:2Explanation:Drop the egg from floor 1. If it breaks, we know that f = 0.
+Otherwise, drop the egg from floor 2. If it breaks, we know that f = 1.
+If it does not break, then we know f = 2.
+Hence, we need at minimum 2 moves to determine with certainty what the value of f is.Example 2:Input:k = 2, n = 6Output:3Example 3:Input:k = 3, n = 14Output:4Constraints:1 <= k <= 1001 <= n <= 104

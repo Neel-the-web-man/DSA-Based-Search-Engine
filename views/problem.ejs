@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title><%= title %></title>
+  <style>
+    body { font-family: Arial; padding: 20px; line-height: 1.6; background: #f9f9f9; }
+    .container { max-width: 800px; margin: auto; background: white; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px #ccc; }
+    .title { font-size: 24px; font-weight: bold; margin-bottom: 10px; }
+    .meta { margin-bottom: 15px; color: #555; }
+    .desc { margin-top: 20px; white-space: pre-wrap; }
+    a { text-decoration: none; color: #007bff; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="title"><%= title %></div>
+    <div class="meta">
+      <strong>Difficulty:</strong> <%= difficulty %> |
+      <strong>Acceptance:</strong> <%= acceptance %>
+    </div>
+    <a href="<%= url %>" target="_blank">View on Platform</a>
+    <div class="desc"><%= problem_desc %></div>
+  </div>
+</body>
+</html>

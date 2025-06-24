@@ -1,0 +1,1 @@
+A positive integer ismagicalif it is divisible by eitheraorb.Given the three integersn,a, andb, return thenthmagical number. Since the answer may be very large,return it modulo109+ 7.Example 1:Input:n = 1, a = 2, b = 3Output:2Example 2:Input:n = 4, a = 2, b = 3Output:6Constraints:1 <= n <= 1092 <= a, b <= 4 * 104

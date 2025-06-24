@@ -1,0 +1,2 @@
+Your task is to calculate the number of valid bracket sequences of lengthnnnwhen aprefixof the sequence is given.InputThe first input line has an integernnn.The second line has a string ofkkkcharacters: the prefix of the sequence.OutputPrint the number of sequences modulo109+710^9+7109+7.Constraints1≤k≤n≤1061 \le k \le n \le 10^61≤k≤n≤106ExampleInput:6
+(()Output:2Explanation: There are two possible sequences:(())()and(()()).

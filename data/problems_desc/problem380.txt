@@ -1,0 +1,10 @@
+You are given an integernand an array ofuniqueintegersblacklist. Design an algorithm to pick a random integer in the range[0, n - 1]that isnotinblacklist. Any integer that is in the mentioned range and not inblacklistshould beequally likelyto be returned.Optimize your algorithm such that it minimizes the number of calls to thebuilt-inrandom function of your language.Implement theSolutionclass:Solution(int n, int[] blacklist)Initializes the object with the integernand the blacklisted integersblacklist.int pick()Returns a random integer in the range[0, n - 1]and not inblacklist.Example 1:Input["Solution", "pick", "pick", "pick", "pick", "pick", "pick", "pick"]
+[[7, [2, 3, 5]], [], [], [], [], [], [], []]Output[null, 0, 4, 1, 6, 1, 0, 4]ExplanationSolution solution = new Solution(7, [2, 3, 5]);
+solution.pick(); // return 0, any integer from [0,1,4,6] should be ok. Note that for every call of pick,
+                 // 0, 1, 4, and 6 must be equally likely to be returned (i.e., with probability 1/4).
+solution.pick(); // return 4
+solution.pick(); // return 1
+solution.pick(); // return 6
+solution.pick(); // return 1
+solution.pick(); // return 0
+solution.pick(); // return 4Constraints:1 <= n <= 1090 <= blacklist.length <= min(105, n - 1)0 <= blacklist[i] < nAll the values ofblacklistareunique.At most2 * 104calls will be made topick.

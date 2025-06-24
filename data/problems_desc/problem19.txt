@@ -1,0 +1,1 @@
+Given an integern, returnthe number of structurally uniqueBST's (binary search trees) which has exactlynnodes of unique values from1ton.Example 1:Input:n = 3Output:5Example 2:Input:n = 1Output:1Constraints:1 <= n <= 19

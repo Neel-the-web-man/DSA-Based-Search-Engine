@@ -1,0 +1,9 @@
+You are given a0-indexedinteger arraystationsof lengthn, wherestations[i]represents the number of power stations in theithcity.Each power station can provide power to every city in a fixedrange. In other words, if the range is denoted byr, then a power station at cityican provide power to all citiesjsuch that|i - j| <= rand0 <= i, j <= n - 1.Note that|x|denotesabsolutevalue. For example,|7 - 5| = 2and|3 - 10| = 7.Thepowerof a city is the total number of power stations it is being provided power from.The government has sanctioned buildingkmore power stations, each of which can be built in any city, and have the same range as the pre-existing ones.Given the two integersrandk, returnthemaximum possible minimum powerof a city, if the additional power stations are built optimally.Notethat you can build thekpower stations in multiple cities.Example 1:Input:stations = [1,2,4,5,0], r = 1, k = 2Output:5Explanation:One of the optimal ways is to install both the power stations at city 1. 
+So stations will become [1,4,4,5,0].
+- City 0 is provided by 1 + 4 = 5 power stations.
+- City 1 is provided by 1 + 4 + 4 = 9 power stations.
+- City 2 is provided by 4 + 4 + 5 = 13 power stations.
+- City 3 is provided by 5 + 4 = 9 power stations.
+- City 4 is provided by 5 + 0 = 5 power stations.
+So the minimum power of a city is 5.
+Since it is not possible to obtain a larger power, we return 5.Example 2:Input:stations = [4,4,4,4], r = 0, k = 3Output:4Explanation:It can be proved that we cannot make the minimum power of a city greater than 4.Constraints:n == stations.length1 <= n <= 1050 <= stations[i] <= 1050 <= r <= n - 10 <= k <= 109

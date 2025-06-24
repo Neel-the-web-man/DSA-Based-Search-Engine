@@ -1,0 +1,2 @@
+A fence consists ofnnnvertical boards. The width of each board is 1 and their heights may vary.You want to attach a rectangular advertisement to the fence. What is the maximum area of such an advertisement?InputThe first input line contains an integernnn: the width of the fence.After this, there arennnintegersk1,k2,…,knk_1,k_2,\ldots,k_nk1​,k2​,…,kn​: the height of each board.OutputPrint one integer: the maximum area of an advertisement.Constraints1≤n≤2⋅1051 \le n \le 2 \cdot 10^51≤n≤2⋅1051≤ki≤1091 \le k_i \le 10^91≤ki​≤109ExampleInput:8
+4 1 5 3 3 2 4 1Output:10

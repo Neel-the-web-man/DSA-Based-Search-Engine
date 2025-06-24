@@ -1,0 +1,2 @@
+Your task is to calculate the number of strings of lengthnnnhaving a given pattern of lengthmmmas their substring. All strings consist of characters A–Z.InputThe first input line has an integernnn: the length of the final string.The second line has a pattern of lengthmmm.OutputPrint the number of strings modulo109+710^9+7109+7.Constraints1≤n≤10001 \le n \le 10001≤n≤10001≤m≤1001 \le m \le 1001≤m≤100ExampleInput:6
+ABCDBOutput:52Explanation: The final string will be of the form ABCDBxxxorxxxABCDB wherexxxis any character between A–Z.

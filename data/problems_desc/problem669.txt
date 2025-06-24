@@ -1,0 +1,8 @@
+You are given an integern, which indicates that there arencourses labeled from1ton. You are also given an arrayrelationswhererelations[i] = [prevCoursei, nextCoursei], representing a prerequisite relationship between courseprevCourseiand coursenextCoursei: courseprevCourseihas to be taken before coursenextCoursei. Also, you are given the integerk.In one semester, you can takeat mostkcourses as long as you have taken all the prerequisites in theprevioussemesters for the courses you are taking.Returntheminimumnumber of semesters needed to take all courses. The testcases will be generated such that it is possible to take every course.Example 1:Input:n = 4, relations = [[2,1],[3,1],[1,4]], k = 2Output:3Explanation:The figure above represents the given graph.
+In the first semester, you can take courses 2 and 3.
+In the second semester, you can take course 1.
+In the third semester, you can take course 4.Example 2:Input:n = 5, relations = [[2,1],[3,1],[4,1],[1,5]], k = 2Output:4Explanation:The figure above represents the given graph.
+In the first semester, you can only take courses 2 and 3 since you cannot take more than two per semester.
+In the second semester, you can take course 4.
+In the third semester, you can take course 1.
+In the fourth semester, you can take course 5.Constraints:1 <= n <= 151 <= k <= n0 <= relations.length <= n * (n-1) / 2relations[i].length == 21 <= prevCoursei, nextCoursei<= nprevCoursei!= nextCourseiAll the pairs[prevCoursei, nextCoursei]areunique.The given graph is a directed acyclic graph.

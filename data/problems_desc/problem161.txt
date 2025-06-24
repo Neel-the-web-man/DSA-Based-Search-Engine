@@ -1,0 +1,1 @@
+Given an integern, returnthe number of prime numbers that are strictly less thann.Example 1:Input:n = 10Output:4Explanation:There are 4 prime numbers less than 10, they are 2, 3, 5, 7.Example 2:Input:n = 0Output:0Example 3:Input:n = 1Output:0Constraints:0 <= n <= 5 * 106

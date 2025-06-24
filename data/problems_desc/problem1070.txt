@@ -1,0 +1,2 @@
+You are given an array ofnnnintegers. Your task is to calculate the number of non-empty subsets whose elements' greatest common divisor is equal tokkkfor eachk=1,…,nk = 1,\dots, nk=1,…,n.InputThe first line has an integernnn: the size of the array.The next line hasnnnintegersx1,x2,…,xnx_1, x_2,\dots, x_nx1​,x2​,…,xn​: the contents of the array.OutputPrintnnnintegers as specified above modulo109+710^9 + 7109+7.Constraints1≤n≤2⋅1051 \le n \le 2 \cdot 10^51≤n≤2⋅1051≤xi≤n1 \le x_i \le n1≤xi​≤nExampleInput:5
+5 4 4 2 3Output:22 4 1 3 1

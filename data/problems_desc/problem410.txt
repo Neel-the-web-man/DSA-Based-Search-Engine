@@ -1,0 +1,5 @@
+Design a data structure that efficiently finds themajority elementof a given subarray.Themajority elementof a subarray is an element that occursthresholdtimes or more in the subarray.Implementing theMajorityCheckerclass:MajorityChecker(int[] arr)Initializes the instance of the class with the given arrayarr.int query(int left, int right, int threshold)returns the element in the subarrayarr[left...right]that occurs at leastthresholdtimes, or-1if no such element exists.Example 1:Input["MajorityChecker", "query", "query", "query"]
+[[[1, 1, 2, 2, 1, 1]], [0, 5, 4], [0, 3, 3], [2, 3, 2]]Output[null, 1, -1, 2]ExplanationMajorityChecker majorityChecker = new MajorityChecker([1, 1, 2, 2, 1, 1]);
+majorityChecker.query(0, 5, 4); // return 1
+majorityChecker.query(0, 3, 3); // return -1
+majorityChecker.query(2, 3, 2); // return 2Constraints:1 <= arr.length <= 2 * 1041 <= arr[i] <= 2 * 1040 <= left <= right < arr.lengththreshold <= right - left + 12 * threshold > right - left + 1At most104calls will be made toquery.

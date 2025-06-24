@@ -1,0 +1,1 @@
+Given an integern, countthe total number of digit1appearing in all non-negative integers less than or equal ton.Example 1:Input:n = 13Output:6Example 2:Input:n = 0Output:0Constraints:0 <= n <= 109

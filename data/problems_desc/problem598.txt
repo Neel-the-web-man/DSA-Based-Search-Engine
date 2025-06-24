@@ -1,0 +1,1 @@
+Given two integersleftandrightthat represent the range[left, right], returnthe bitwise AND of all numbers in this range, inclusive.Example 1:Input:left = 5, right = 7Output:4Example 2:Input:left = 0, right = 0Output:0Example 3:Input:left = 1, right = 2147483647Output:0Constraints:0 <= left <= right <= 231- 1

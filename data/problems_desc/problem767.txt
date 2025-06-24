@@ -1,0 +1,8 @@
+You and some monsters are in a labyrinth. When taking a step to some direction in the labyrinth, each monster may simultaneously take one as well. Your goal is to reach one of the boundary squares without ever sharing a square with a monster.Your task is to find out if your goal is possible, and if it is, print a path that you can follow. Your plan has to work in any situation; even if the monsters know your path beforehand.InputThe first input line has two integersnnnandmmm: the height and width of the map.After this there arennnlines ofmmmcharacters describing the map. Each character is.(floor),#(wall),A(start), orM(monster). There is exactly oneAin the input.OutputFirst print "YES" if your goal is possible, and "NO" otherwise.If your goal is possible, also print an example of a valid path (the length of the path and its description using charactersD,U,L, andR). You can print any path, as long as its length is at mostn⋅mn \cdot mn⋅msteps.Constraints1≤n,m≤10001 \le n,m \le 10001≤n,m≤1000ExampleInput:5 8
+########
+#M..A..#
+#.#.M#.#
+#M#..#..
+#.######Output:YES
+5
+RRDDR

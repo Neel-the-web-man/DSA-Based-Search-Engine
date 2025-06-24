@@ -1,0 +1,9 @@
+You are given a0-indexedinteger arraynums. A subarray ofnumsis calledcontinuousif:Leti,i + 1, ...,jbe the indices in the subarray. Then, for each pair of indicesi <= i1, i2<= j,0 <=|nums[i1] - nums[i2]| <= 2.Returnthe total number ofcontinuoussubarrays.A subarray is a contiguousnon-emptysequence of elements within an array.Example 1:Input:nums = [5,4,2,4]Output:8Explanation:Continuous subarray of size 1: [5], [4], [2], [4].
+Continuous subarray of size 2: [5,4], [4,2], [2,4].
+Continuous subarray of size 3: [4,2,4].
+There are no subarrys of size 4.
+Total continuous subarrays = 4 + 3 + 1 = 8.
+It can be shown that there are no more continuous subarrays.Example 2:Input:nums = [1,2,3]Output:6Explanation:Continuous subarray of size 1: [1], [2], [3].
+Continuous subarray of size 2: [1,2], [2,3].
+Continuous subarray of size 3: [1,2,3].
+Total continuous subarrays = 3 + 2 + 1 = 6.Constraints:1 <= nums.length <= 1051 <= nums[i] <= 109

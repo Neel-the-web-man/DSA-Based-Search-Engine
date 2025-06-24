@@ -1,0 +1,7 @@
+Roman numerals are represented by seven different symbols:I,V,X,L,C,DandM.SymbolValueI             1
+V             5
+X             10
+L             50
+C             100
+D             500
+M             1000For example,2is written asIIin Roman numeral, just two ones added together.12is written asXII, which is simplyX + II. The number27is written asXXVII, which isXX + V + II.Roman numerals are usually written largest to smallest from left to right. However, the numeral for four is notIIII. Instead, the number four is written asIV. Because the one is before the five we subtract it making four. The same principle applies to the number nine, which is written asIX. There are six instances where subtraction is used:Ican be placed beforeV(5) andX(10) to make 4 and 9.Xcan be placed beforeL(50) andC(100) to make 40 and 90.Ccan be placed beforeD(500) andM(1000) to make 400 and 900.Given a roman numeral, convert it to an integer.Example 1:Input:s = "III"Output:3Explanation:III = 3.Example 2:Input:s = "LVIII"Output:58Explanation:L = 50, V= 5, III = 3.Example 3:Input:s = "MCMXCIV"Output:1994Explanation:M = 1000, CM = 900, XC = 90 and IV = 4.Constraints:1 <= s.length <= 15scontains only the characters('I', 'V', 'X', 'L', 'C', 'D', 'M').It isguaranteedthatsis a valid roman numeral in the range[1, 3999].

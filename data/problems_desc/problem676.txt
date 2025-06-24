@@ -1,0 +1,7 @@
+Given an integern, you must transform it into0using the following operations any number of times:Change the rightmost (0th) bit in the binary representation ofn.Change theithbit in the binary representation ofnif the(i-1)thbit is set to1and the(i-2)ththrough0thbits are set to0.Returnthe minimum number of operations to transformninto0.Example 1:Input:n = 3Output:2Explanation:The binary representation of 3 is "11".
+"11" -> "01" with the 2ndoperation since the 0thbit is 1.
+"01" -> "00" with the 1stoperation.Example 2:Input:n = 6Output:4Explanation:The binary representation of 6 is "110".
+"110" -> "010" with the 2ndoperation since the 1stbit is 1 and 0ththrough 0thbits are 0.
+"010" -> "011" with the 1stoperation.
+"011" -> "001" with the 2ndoperation since the 0thbit is 1.
+"001" -> "000" with the 1stoperation.Constraints:0 <= n <= 109

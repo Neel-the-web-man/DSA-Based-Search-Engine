@@ -1,0 +1,7 @@
+There is a hidden integerxxx. Your task is to find the value ofxxx.To do this, you can ask questions: you can choose an integeryyyand you will be told ify<xy < xy<x.InteractionThis is an interactive problem. Your code will interact with the grader using standard input and output. You can start asking questions right away.On your turn, you can print one of the following:"?y?\ y?y", where1≤y≤1091 \le y \le 10^91≤y≤109: ask ify<xy < xy<x. The grader will returnYESify<xy < xy<xandNOotherwise."!x!\ x!x": report that the hidden integer isxxx. Your program must terminate after this.Each line should be followed by a line break. You must make sure the output gets flushed after printing each line.Constraints1≤x≤1091 \le x \le 10^91≤x≤109you can ask at most303030questions of type???Example? 3
+YES
+? 6
+YES
+? 7
+NO
+! 7

@@ -1,0 +1,2 @@
+Given an array ofnnnintegers, count the number of subarrays where each element is dictinct.InputThe first line has an integernnn: the array size.The second line hasnnnintegersx1,x2,…,xnx_1,x_2,\dots,x_nx1​,x2​,…,xn​: the array contents.OutputPrint the number of subarrays with distinct elements.Constraints1≤n≤2⋅1051 \le n \le 2 \cdot 10^51≤n≤2⋅1051≤xi≤1091 \le x_i \le 10^91≤xi​≤109ExampleInput:4
+1 2 1 3Output:8Explanation: The subarrays are[1][1][1](two times),[2][2][2],[3][3][3],[1,2][1,2][1,2],[1,3][1,3][1,3],[2,1][2,1][2,1]and[2,1,3][2,1,3][2,1,3].

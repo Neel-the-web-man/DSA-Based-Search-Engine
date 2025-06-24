@@ -1,0 +1,6 @@
+Your task is to build a tower whose width is222and height isnnn. You have an unlimited supply of blocks whose width and height are integers.For example, here are some possible solutions forn=6n=6n=6:Givennnn, how many different towers can you build? Mirrored and rotated towers are counted separately if they look different.InputThe first input line contains an integerttt: the number of tests.After this, there aretttlines, and each line contains an integernnn: the height of the tower.OutputFor each test, print the number of towers modulo109+710^9+7109+7.Constraints1≤t≤1001 \le t \le 1001≤t≤1001≤n≤1061 \le n \le 10^61≤n≤106ExampleInput:3
+2
+6
+1337Output:8
+2864
+640403945

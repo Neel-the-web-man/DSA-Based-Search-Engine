@@ -1,0 +1,3 @@
+You havennncoins with certain values. Your task is to find all money sums you can create using these coins.InputThe first input line has an integernnn: the number of coins.The next line hasnnnintegersx1,x2,…,xnx_1,x_2,\dots,x_nx1​,x2​,…,xn​: the values of the coins.OutputFirst print an integerkkk: the number of distinct money sums. After this, print all possible sums in increasing order.Constraints1≤n≤1001 \le n \le 1001≤n≤1001≤xi≤10001 \le x_i \le 10001≤xi​≤1000ExampleInput:4
+4 2 5 2Output:9
+2 4 5 6 7 8 9 11 13

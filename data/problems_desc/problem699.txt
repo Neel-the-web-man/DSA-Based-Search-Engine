@@ -1,0 +1,6 @@
+You are given ann×mn\times mn×mgrid where each cell contains one characterA,B,CorD.For each cell, you must change the character toA,B,CorD. The new character must be different from the old one.Your task is to change the characters in every cell such that no two adjacent cells have the same character.InputThe first line has two integersnnnandmmm: the number of rows and columns.The nextnnnlines each havemmmcharacters: the description of the grid.OutputPrintnnnlines each withmmmcharacters: the description of the final grid.You may print any valid solution.If no solution exists, just printIMPOSSIBLE.Constraints1≤n,m≤5001 \le n, m \le 5001≤n,m≤500ExampleInput:3 4
+AAAA
+BBBB
+CCDDOutput:CDCD
+DCDC
+ABAB

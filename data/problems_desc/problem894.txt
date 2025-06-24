@@ -1,0 +1,2 @@
+You are given a string of lengthnnn. If all of its substrings (not necessarily distinct) are ordered lexicographically, what is thekkkth smallest of them?InputThe first input line has a string of lengthnnnthat consists of characters a–z.The second input line has an integerkkk.OutputPrint thekkkth smallest substring in lexicographical order.Constraints1≤n≤1051 \le n \le 10^51≤n≤1051≤k≤n(n+1)21 \le k \le \frac{n(n+1)}{2}1≤k≤2n(n+1)​ExampleInput:baabaa
+10Output:abExplanation: The 10 smallest substrings in order are a, a, a, a, aa, aa, aab, aaba, aabaa, and ab.

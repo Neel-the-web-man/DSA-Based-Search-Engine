@@ -1,0 +1,2 @@
+Given an array ofnnnintegers, your task is to find the maximum xor sum of a subarray.InputThe first line has an integernnn: the size of the array.The next line hasnnnintegersx1,x2,…,xnx_1,x_2,\dots,x_nx1​,x2​,…,xn​: the contents of the array.OutputPrint one integer: the maximum xor sum in a subarray.Constraints1≤n≤2⋅1051 \le n \le 2 \cdot 10^51≤n≤2⋅1050≤xi≤1090 \le x_i \le 10^90≤xi​≤109ExampleInput:4
+5 1 5 9Output:13

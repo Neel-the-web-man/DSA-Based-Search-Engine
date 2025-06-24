@@ -1,0 +1,10 @@
+A triangle number is a positive integer of the form1+2+⋯+k1+2+\dots+k1+2+⋯+k. The first triangle numbers are111,333,666,101010and151515.Every positive integer can be represented as a sum of triangle numbers. For example,42=21+2142=21+2142=21+21and1337=1326+10+11337=1326+10+11337=1326+10+1.Given a positive integernnn, determine the smallest number of triangle numbers that sum tonnn.InputThe first line has an integerttt: the number of tests.After that, each line has a positive integernnn.OutputFor each test, print the smallest number of triangle numbers.Constraints1≤t≤1001 \le t \le 1001≤t≤1001≤n≤10121 \le n \le 10^{12}1≤n≤1012ExampleInput:5
+1
+2
+3
+42
+1337Output:1
+2
+1
+2
+3

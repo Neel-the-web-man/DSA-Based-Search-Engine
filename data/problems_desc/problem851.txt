@@ -1,0 +1,1 @@
+There arennnchildren at a Christmas party, and each of them has brought a gift. The idea is that everybody will get a gift brought by someone else.In how many ways can the gifts be distributed?InputThe only input line has an integernnn: the number of children.OutputPrint the number of ways modulo109+710^9+7109+7.Constraints1≤n≤1061 \le n \le 10^61≤n≤106ExampleInput:4Output:9

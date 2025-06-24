@@ -1,0 +1,2 @@
+You are given an array ofnnnintegers. Your task is to count the number of non-empty subsets of the given array with average equal toaaa.InputThe first line has two integersnnnandaaa: the size of the array and the target average.The next line hasnnnintegersx1,x2,…,xnx_1, x_2,\dots, x_nx1​,x2​,…,xn​: the contents of the array.OutputPrint one integer: the number of non-empty subsets with average equal toaaa, modulo109+710^9 + 7109+7.Constraints1≤n≤5001 \le n \le 5001≤n≤5001≤a≤5001 \le a \le 5001≤a≤5001≤xi≤5001 \le x_i \le 5001≤xi​≤500ExampleInput:5 2
+1 1 2 3 4Output:7

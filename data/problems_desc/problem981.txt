@@ -1,0 +1,20 @@
+You are given an undirected graph withnnnnodes andmmmedges. The graph is simple and connected.You start at a specific node, and on each turn
+you must move through an edge to another node.Your task is to answerqqqqueries of the form: "is it possible to start at nodeaaaand end up on nodebbbafter exactlyxxxturns?"InputThe first line contains three integersnnn,mmmandqqq:
+the number of nodes, edges and queries. The nodes are numbered1,2,…,n1,2,\dots,n1,2,…,n.After this, there aremmmlines which describe the edges. Each line contains two integersaaaandbbb: there is an edge between nodesaaaandbbb.Finally, there areqqqlines, each describing a query.
+Each line contains three integersaaa,bbbandxxx.OutputFor each query, print the answer (YESorNO) on its own line.Constraints2≤n≤25002 \le n \le 25002≤n≤25001≤m≤50001 \le m \le 50001≤m≤50001≤q≤1051 \le q \le 10^51≤q≤1050≤x≤1090 \le x \le 10^90≤x≤109ExampleInput:4 5 6
+1 2
+2 3
+1 3
+2 4
+3 4
+1 2 2
+1 4 1
+1 4 5
+2 2 1
+2 2 2
+3 4 8Output:YES
+NO
+YES
+NO
+YES
+YESExplanation:In query 1, a possible route is1→3→21 \rightarrow 3 \rightarrow 21→3→2.In query 3, a possible route is1→3→2→1→3→41 \rightarrow 3 \rightarrow 2 \rightarrow 1 \rightarrow 3 \rightarrow 41→3→2→1→3→4.In query 6, a possible route is3→4→2→3→4→2→1→3→43 \rightarrow 4 \rightarrow 2 \rightarrow 3 \rightarrow 4 \rightarrow 2 \rightarrow 1 \rightarrow 3 \rightarrow 43→4→2→3→4→2→1→3→4.

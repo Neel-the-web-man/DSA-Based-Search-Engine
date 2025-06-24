@@ -1,0 +1,22 @@
+There is a network ofnservers, labeled from0ton - 1. You are given a 2D integer arrayedges, whereedges[i] = [ui, vi]indicates there is a message channel between serversuiandvi, and they can passanynumber of messages toeach otherdirectly inonesecond. You are also given a0-indexedinteger arraypatienceof lengthn.All servers areconnected, i.e., a message can be passed from one server to any other server(s) directly or indirectly through the message channels.The server labeled0is themasterserver. The rest aredataservers. Each data server needs to send its message to the master server for processing and wait for a reply. Messages move between serversoptimally, so every message takes theleast amount of timeto arrive at the master server. The master server will process all newly arrived messagesinstantlyand send a reply to the originating server via thereversed paththe message had gone through.At the beginning of second0, each data server sends its message to be processed. Starting from second1, at thebeginningofeverysecond, each data server will check if it has received a reply to the message it sent (including any newly arrived replies) from the master server:If it has not, it willresendthe message periodically. The data serveriwill resend the message everypatience[i]second(s), i.e., the data serveriwill resend the message ifpatience[i]second(s) haveelapsedsince thelasttime the message was sent from this server.Otherwise,no more resendingwill occur from this server.The network becomesidlewhen there arenomessages passing between servers or arriving at servers.Returntheearliest secondstarting from which the network becomesidle.Example 1:Input:edges = [[0,1],[1,2]], patience = [0,2,1]Output:8Explanation:At (the beginning of) second 0,
+- Data server 1 sends its message (denoted 1A) to the master server.
+- Data server 2 sends its message (denoted 2A) to the master server.
+
+At second 1,
+- Message 1A arrives at the master server. Master server processes message 1A instantly and sends a reply 1A back.
+- Server 1 has not received any reply. 1 second (1 < patience[1] = 2) elapsed since this server has sent the message, therefore it does not resend the message.
+- Server 2 has not received any reply. 1 second (1 == patience[2] = 1) elapsed since this server has sent the message, therefore it resends the message (denoted 2B).
+
+At second 2,
+- The reply 1A arrives at server 1. No more resending will occur from server 1.
+- Message 2A arrives at the master server. Master server processes message 2A instantly and sends a reply 2A back.
+- Server 2 resends the message (denoted 2C).
+...
+At second 4,
+- The reply 2A arrives at server 2. No more resending will occur from server 2.
+...
+At second 7, reply 2D arrives at server 2.
+
+Starting from the beginning of the second 8, there are no messages passing between servers or arriving at servers.
+This is the time when the network becomes idle.Example 2:Input:edges = [[0,1],[0,2],[1,2]], patience = [0,10,10]Output:3Explanation:Data servers 1 and 2 receive a reply back at the beginning of second 2.
+From the beginning of the second 3, the network becomes idle.Constraints:n == patience.length2 <= n <= 105patience[0] == 01 <= patience[i] <= 105for1 <= i < n1 <= edges.length <= min(105, n * (n - 1) / 2)edges[i].length == 20 <= ui, vi< nui!= viThere are no duplicate edges.Each server can directly or indirectly reach another server.

@@ -1,0 +1,5 @@
+You are given a tree consisting ofnnnnodes.Amatchingis a set of edges where each node is an endpoint of at most one edge. What is the maximum number of edges in a matching?InputThe first input line contains an integernnn: the number of nodes. The nodes are numbered1,2,…,n1,2,\ldots,n1,2,…,n.Then there aren−1n-1n−1lines describing the edges. Each line contains two integersaaaandbbb: there is an edge between nodesaaaandbbb.OutputPrint one integer: the maximum number of pairs.Constraints1≤n≤2⋅1051 \le n \le 2 \cdot 10^51≤n≤2⋅1051≤a,b≤n1 \le a,b \le n1≤a,b≤nExampleInput:5
+1 2
+1 3
+3 4
+3 5Output:2Explanation: One possible matching is(1,2)(1,2)(1,2)and(3,4)(3,4)(3,4).

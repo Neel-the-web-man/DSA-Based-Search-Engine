@@ -1,0 +1,5 @@
+Given a set of points in the two-dimensional plane, your task is to find the minimum Euclidean distance between two distinct points.The Euclidean distance of points(x1,y1)(x_1,y_1)(x1​,y1​)and(x2,y2)(x_2,y_2)(x2​,y2​)is(x1−x2)2+(y1−y2)2\sqrt{(x_1-x_2)^2+(y_1-y_2)^2}(x1​−x2​)2+(y1​−y2​)2​.InputThe first input line has an integernnn: the number of points.After this, there arennnlines that describe the points. Each line has two integersxxxandyyy. You may assume that each point is distinct.OutputPrint one integer:d2d^2d2wheredddis the minimum Euclidean distance (this ensures that the result is an integer).Constraints2≤n≤2⋅1052 \le n \le 2 \cdot 10^52≤n≤2⋅105−109≤x,y≤109-10^9 \le x,y \le 10^9−109≤x,y≤109ExampleInput:4
+2 1
+4 4
+1 2
+6 3Output:2

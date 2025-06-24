@@ -1,0 +1,1 @@
+Given an integer arraynums, returnthe maximum result ofnums[i] XOR nums[j], where0 <= i <= j < n.Example 1:Input:nums = [3,10,5,25,2,8]Output:28Explanation:The maximum result is 5 XOR 25 = 28.Example 2:Input:nums = [14,70,53,83,49,91,36,80,92,51,66,70]Output:127Constraints:1 <= nums.length <= 2 * 1050 <= nums[i] <= 231- 1

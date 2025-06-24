@@ -1,0 +1,6 @@
+Consider an infinite string that consists of all positive integers in increasing order:12345678910111213141516171819202122232425...Your task is to processqqqqueries of the form: what is the digit at positionkkkin the string?InputThe first input line has an integerqqq: the number of queries.After this, there areqqqlines that describe the queries. Each line has an integerkkk: a111-indexed position in the string.OutputFor each query, print the corresponding digit.Constraints1≤q≤10001 \le q \le 10001≤q≤10001≤k≤10181 \le k \le 10^{18}1≤k≤1018ExampleInput:3
+7
+19
+12Output:7
+4
+1

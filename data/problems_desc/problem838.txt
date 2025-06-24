@@ -1,0 +1,8 @@
+Consider a game where there arennnchildren (numbered1,2,…,n1,2,\dots,n1,2,…,n) in a circle. During the game, every second child is removed from the circle, until there are no children left.Your task is to processqqqqueries of the form: "when there arennnchildren, who is thekkkth child that will be removed?"InputThe first input line has an integerqqq: the number of queries.After this, there areqqqlines that describe the queries. Each line has two integersnnnandkkk: the number of children and the position of the child.OutputPrintqqqintegers: the answer for each query.Constraints1≤q≤1051 \le q \le 10^51≤q≤1051≤k≤n≤1091 \le k \le n \le 10^91≤k≤n≤109ExampleInput:4
+7 1
+7 3
+2 2
+1337 1313Output:2
+6
+1
+1107

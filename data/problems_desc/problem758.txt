@@ -1,0 +1,1 @@
+Your task is to count the number of ways you can fill ann×mn \times mn×mgrid using1×21 \times 21×2and2×12 \times 12×1tiles.InputThe only input line has two integersnnnandmmm.OutputPrint one integer: the number of ways modulo109+710^9+7109+7.Constraints1≤n≤101 \le n \le 101≤n≤101≤m≤10001 \le m \le 10001≤m≤1000ExampleInput:4 7Output:781

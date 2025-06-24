@@ -1,0 +1,6 @@
+Your task is to efficiently calculate valuesabca^{b^c}abcmodulo109+710^9+7109+7.Note that in this task we assume that00=10^0=100=1.InputThe first input line has an integernnn: the number of calculations.After this, there arennnlines, each containing three integersaaa,bbbandccc.OutputPrint each valueabca^{b^c}abcmodulo109+710^9+7109+7.Constraints1≤n≤1051 \le n \le 10^51≤n≤1050≤a,b,c≤1090 \le a,b,c \le 10^90≤a,b,c≤109ExampleInput:3
+3 7 1
+15 2 2
+3 4 5Output:2187
+50625
+763327764

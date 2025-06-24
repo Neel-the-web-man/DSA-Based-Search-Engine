@@ -1,0 +1,4 @@
+Givennnnrectangles, your task is to determine the total area of their union.InputThe first line has an integernnn: the number of rectangles.After that, there arennnlines describing the rectangles. Each line has four integersx1x_1x1​,y1y_1y1​,x2x_2x2​andy2y_2y2​: a rectangle begins at point(x1,y1)(x_1,y_1)(x1​,y1​)and ends at point(x2,y2)(x_2,y_2)(x2​,y2​).OutputPrint the total area covered by the rectangles.Constraints1≤n≤1051 \le n \le 10^51≤n≤105−106≤x1<x2≤106-10^6 \le x_1 < x_2 \le 10^6−106≤x1​<x2​≤106−106≤y1<y2≤106-10^6 \le y_1 < y_2 \le 10^6−106≤y1​<y2​≤106ExampleInput:3
+1 3 4 5
+3 1 7 4
+5 3 8 6Output:24

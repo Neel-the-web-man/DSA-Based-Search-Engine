@@ -1,0 +1,2 @@
+Given a string and a pattern, your task is to count the number of positions where the pattern occurs in the string.InputThe first input line has a string of lengthnnn, and the second input line has a pattern of lengthmmm. Both of them consist of characters a–z.OutputPrint one integer: the number of occurrences.Constraints1≤n,m≤1061 \le n,m \le 10^61≤n,m≤106ExampleInput:saippuakauppias
+ppOutput:2

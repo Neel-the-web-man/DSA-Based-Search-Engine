@@ -1,0 +1,5 @@
+You are given a tree consisting ofnnnnodes.Your task is to determine for each node the sum of the distances from the node to all other nodes.InputThe first input line contains an integernnn: the number of nodes. The nodes are numbered1,2,…,n1,2,\ldots,n1,2,…,n.Then there aren−1n-1n−1lines describing the edges. Each line contains two integersaaaandbbb: there is an edge between nodesaaaandbbb.OutputPrintnnnintegers: for each node1,2,…,n1,2,\ldots,n1,2,…,n, the sum of the distances.Constraints1≤n≤2⋅1051 \le n \le 2 \cdot 10^51≤n≤2⋅1051≤a,b≤n1 \le a,b \le n1≤a,b≤nExampleInput:5
+1 2
+1 3
+3 4
+3 5Output:6 9 5 8 8

@@ -1,0 +1,14 @@
+There are two water containers: containerAAAhas volumeaaaand containerBBBhas volumebbb. You want to measurexxxunits of water using the containers.Initially both containers are empty. On each move, you can fill a container, empty a container or move water from a container to another container. When you move water, you must always fill or empty at least one container. After the moves, containerAAAmust havexxxunits of water.Your task is to efficiently check if it is possible to measure the water in several cases.InputThe first line has integernnn: the number of tests.After this, there arennnlines. Each line has three integersaaa,bbbandxxx.OutputFor each test, print YES if it is possible to measure the water and NO otherwise.Constraints1≤n≤10001 \le n \le 10001≤n≤10001≤a,b,x≤1091 \le a, b, x \le 10^91≤a,b,x≤109ExampleInput:7
+5 3 4
+1 1 1
+1 1 2
+2 2 1
+123 456 42
+1000 999 123
+1000 998 123Output:YES
+YES
+NO
+NO
+YES
+YES
+NO

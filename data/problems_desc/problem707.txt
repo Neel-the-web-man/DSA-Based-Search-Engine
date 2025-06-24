@@ -1,0 +1,4 @@
+You are given the arrival and leaving times ofnnncustomers in a restaurant.What was the maximum number of customers in the restaurant at any time?InputThe first input line has an integernnn: the number of customers.After this, there arennnlines that describe the customers. Each line has two integersaaaandbbb: the arrival and leaving times of a customer.You may assume that all arrival and leaving times are distinct.OutputPrint one integer: the maximum number of customers.Constraints1≤n≤2⋅1051 \le n \le 2 \cdot 10^51≤n≤2⋅1051≤a<b≤1091 \le a < b \le 10^91≤a<b≤109ExampleInput:3
+5 8
+2 4
+3 9Output:2

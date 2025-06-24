@@ -1,0 +1,5 @@
+Given a tree ofnnnnodes, your task is to count the number of distinct paths that consist of exactlykkkedges.InputThe first input line contains two integersnnnandkkk: the number of nodes and the path length. The nodes are numbered1,2,…,n1,2,\ldots,n1,2,…,n.Then there aren−1n-1n−1lines describing the edges. Each line contains two integersaaaandbbb: there is an edge between nodesaaaandbbb.OutputPrint one integer: the number of paths.Constraints1≤k≤n≤2⋅1051 \le k \le n \le 2 \cdot 10^51≤k≤n≤2⋅1051≤a,b≤n1 \le a,b \le n1≤a,b≤nExampleInput:5 2
+1 2
+2 3
+3 4
+3 5Output:4

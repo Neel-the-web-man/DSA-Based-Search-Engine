@@ -1,0 +1,4 @@
+Given two arrays which are permutations, find their longest common subsequence.A subsequence is a sequence of array elements from left to right that can contain gaps. A common subsequence is a subsequence that appears in both arrays.InputThe first line has two integersnnnandmmm: the sizes of the arrays.The second line hasnnnintegersa1,a2,…,ana_1,a_2,\dots,a_na1​,a2​,…,an​: the contents of the first array.The third line hasmmmintegersb1,b2,…,bmb_1,b_2,\dots,b_mb1​,b2​,…,bm​: the contents of the second array.OutputFirst print the length of the longest common subsequence.After that, an example of such a sequence. If there are several solutions, you can print any of them.Constraints1≤n,m≤2⋅1051 \le n,m \le 2 \cdot 10^51≤n,m≤2⋅1051≤ai≤n1 \le a_i \le n1≤ai​≤n1≤bi≤m1 \le b_i \le m1≤bi​≤mExampleInput:8 6
+3 1 2 8 5 7 6 4
+6 5 1 2 3 4Output:3
+1 2 4

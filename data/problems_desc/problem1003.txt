@@ -1,0 +1,6 @@
+You are given a grid of letters. Your task is to calculate the number ofsquaresubgrids that contain all the letters.InputThe first line has two integersnnnandkkk: the size of the grid and the number of letters. The letters are the firstkkkuppercase letters.After this, there arennnlines that describe the grid. Each line hasnnnletters.OutputPrint the number of subgrids.Constraints1≤n≤30001 \le n \le 30001≤n≤30001≤k≤261 \le k \le 261≤k≤26ExampleInput:5 3
+ABBBC
+BBBBC
+BCAAA
+AAAAA
+AAAAAOutput:15

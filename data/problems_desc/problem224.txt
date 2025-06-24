@@ -1,0 +1,9 @@
+Design a data structure that supports adding new words and finding if a string matches any previously added string.Implement theWordDictionaryclass:WordDictionary()Initializes the object.void addWord(word)Addswordto the data structure, it can be matched later.bool search(word)Returnstrueif there is any string in the data structure that matcheswordorfalseotherwise.wordmay contain dots'.'where dots can be matched with any letter.Example:Input["WordDictionary","addWord","addWord","addWord","search","search","search","search"]
+[[],["bad"],["dad"],["mad"],["pad"],["bad"],[".ad"],["b.."]]Output[null,null,null,null,false,true,true,true]ExplanationWordDictionary wordDictionary = new WordDictionary();
+wordDictionary.addWord("bad");
+wordDictionary.addWord("dad");
+wordDictionary.addWord("mad");
+wordDictionary.search("pad"); // return False
+wordDictionary.search("bad"); // return True
+wordDictionary.search(".ad"); // return True
+wordDictionary.search("b.."); // return TrueConstraints:1 <= word.length <= 25wordinaddWordconsists of lowercase English letters.wordinsearchconsist of'.'or lowercase English letters.There will be at most2dots inwordforsearchqueries.At most104calls will be made toaddWordandsearch.

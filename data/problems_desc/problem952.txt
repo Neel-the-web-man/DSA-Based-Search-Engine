@@ -1,0 +1,8 @@
+There arennnchairs arranged in a circle. Each chair is either red or blue. The chairs are numbered1,2,…,n1, 2,\dots, n1,2,…,n; chairsiiiandi+1i+1i+1are next to each other for all1≤i≤n1 \le i \le n1≤i≤n. Here chairn+1n+1n+1refers to chair111.Your task is to find two chairs that have the same color and are next to each other.To do this, you can ask questions: you can choose a chair and you will be told the color of that chair.InteractionThis is an interactive problem. Your code will interact with the grader using standard input and output. You should start by reading a single integernnn: the number of chairs.On your turn, you can print one of the following:"?i?\ i?i", where1≤i≤n1 \le i \le n1≤i≤n: ask the color of chairiii. The grader will returnRorBfor red or blue."!i!\ i!i": report that chairsiiiandi+1i+1i+1have the same color. Your program must terminate after this.Each line should be followed by a line break. You must make sure the output gets flushed after printing each line.Constraints3≤n≤2⋅1053 \le n \le 2 \cdot 10^53≤n≤2⋅105,nnnis oddyou can ask at most202020questions of type???Example5
+? 1
+R
+? 2
+B
+? 3
+B
+! 2

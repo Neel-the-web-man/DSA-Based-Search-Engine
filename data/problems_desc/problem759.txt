@@ -1,0 +1,1 @@
+Your task is to count the number of integers betweenaaaandbbbwhere no two adjacent digits are the same.InputThe only input line has two integersaaaandbbb.OutputPrint one integer: the answer to the problem.Constraints0≤a≤b≤10180 \le a \le b \le 10^{18}0≤a≤b≤1018ExampleInput:123 321Output:171

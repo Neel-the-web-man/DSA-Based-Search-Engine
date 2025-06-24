@@ -1,0 +1,1 @@
+Given an integern, returntrueif it is a power of four. Otherwise, returnfalse.An integernis a power of four, if there exists an integerxsuch thatn == 4x.Example 1:Input:n = 16Output:trueExample 2:Input:n = 5Output:falseExample 3:Input:n = 1Output:trueConstraints:-231<= n <= 231- 1Follow up:Could you solve it without loops/recursion?

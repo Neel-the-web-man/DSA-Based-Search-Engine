@@ -1,0 +1,4 @@
+You have to processnnntasks. Each task has a duration and a deadline, and you will process the tasks in some order one after another. Your reward for a task isd−fd-fd−fwheredddis its deadline andfffis your finishing time. (The starting time is000, and you have to process all tasks even if a task would yield negative reward.)What is your maximum reward if you act optimally?InputThe first input line has an integernnn: the number of tasks.After this, there arennnlines that describe the tasks. Each line has two integersaaaandddd: the duration and deadline of the task.OutputPrint one integer: the maximum reward.Constraints1≤n≤2⋅1051 \le n \le 2 \cdot 10^51≤n≤2⋅1051≤a,d≤1061 \le a,d \le 10^61≤a,d≤106ExampleInput:3
+6 10
+8 15
+5 12Output:2
